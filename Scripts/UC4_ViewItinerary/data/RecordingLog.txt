@@ -1,0 +1,313 @@
+[API Trapper      (2b38:360c)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3fb4:3c14)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[API Trapper      (3564:34e4)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3564:2754)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3564:2754)] Load Network Traffic Analyzers:
+[Network Analyzer (3564:2754)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3564:2754)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3564:2754)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3564:2754)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3564:2754)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3564:2754)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3564:2754)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3564:311c)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[API Trapper      ( 64c:2f88)] Recording in 64-bit mode: C:\Program Files\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.164.94:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 108.177.14.188:5228   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:303c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 108.177.14.94:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3564:1e58)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:3c28)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.165.84:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3564:1838)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:3100)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Net An. Error    (3564:1e58)] SSLAccept(ssl_id = 2360038456528 = 000002257D40FCD0) Failed, ctx = 0000022579ADE4B0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:1e58)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (3564:303c)] SSLAccept(ssl_id = 2360038016352 = 000002257D3A4560) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:3c28)] SSLAccept(ssl_id = 2360038324368 = 000002257D3EF890) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:303c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (3564:3c28)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Web Request      (3564:311c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (3564:311c)]   (Sid:  6) Client -> Server @ : 735 bytes (Service=HTTP)
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 216.239.32.29:80   (Service=)  (Sid=  7)  PROXIED!
+[Net An. Error    (3564:3100)] SSLAccept(ssl_id = 2360038808464 = 000002257D465B90) Failed, ctx = 0000022579ADE8A0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:3100)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (3564:1838)] SSLAccept(ssl_id = 2360038714624 = 000002257D44ED00) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:1838)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:311c)]   (Sid:  6) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 173.194.221.95:443   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (3564:311c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3564:311c)]   (Sid:  6) Client -> Server @ : 776 bytes (Service=HTTP)
+[Network Analyzer (3564:2b94)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:311c)]   (Sid:  6) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid:  5) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.165.84:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Net An. Error    (3564:2b94)] SSLAccept(ssl_id = 2360039042272 = 000002257D49ECE0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:2b94)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (3564:311c)] "GET /favicon.ico"   
+[Network Analyzer (3564:311c)]   (Sid:  6) Client -> Server @ : 641 bytes (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid:  6) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (3564: b70)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3564: b70)] SSLAccept(ssl_id = 2360038378480 = 000002257D3FCBF0) Failed, ctx = 0000022579ADE8A0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564: b70)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (3564:3b60)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3564:3b60)] SSLAccept(ssl_id = 2360038808464 = 000002257D465B90) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:3b60)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid:  9) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.165.84:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (3564:3cec)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3564:3cec)] SSLAccept(ssl_id = 2360039042272 = 000002257D49ECE0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:3cec)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:2b58)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3564:2b58)] SSLAccept(ssl_id = 2360038378480 = 000002257D3FCBF0) Failed, ctx = 0000022579ADE8A0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:2b58)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (3564:24ac)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3564:24ac)] SSLAccept(ssl_id = 2360038378480 = 000002257D3FCBF0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:24ac)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid: 14) Connection Terminated (by Client)
+[Web Request      (3564:311c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (3564:311c)]   (Sid: 10) Client -> Server @ : 1031 bytes (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 10) Server -> Client : 870 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (3564:1384)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3564:311c)]   (Sid: 10) Connection Terminated (by Server)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3564:1384)] SSLAccept(ssl_id = 2360038794720 = 000002257D4625E0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:1384)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:311c)]   (Sid: 15) Connection Terminated (by Server)
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.165.84:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564: e5c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 18)  PROXIED!
+[Web Request      (3564:311c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (3564:311c)]   (Sid: 17) Client -> Server @ : 919 bytes (Service=HTTP)
+[Net An. Error    (3564: e5c)] SSLAccept(ssl_id = 2360039042272 = 000002257D49ECE0) Failed, ctx = 0000022579ADE8A0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564: e5c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid: 17) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:2170)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (3564:311c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (3564:311c)]   (Sid: 17) Client -> Server @ : 924 bytes (Service=HTTP)
+[Net An. Error    (3564:2170)] SSLAccept(ssl_id = 2360038337472 = 000002257D3F2BC0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:2170)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid: 17) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (3564:311c)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 108.177.14.188:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (3564:2974)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3564:2974)] SSLAccept(ssl_id = 2360038794720 = 000002257D4625E0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:2974)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:1e70)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3564:1e70)] SSLAccept(ssl_id = 2360038092896 = 000002257D3B7060) Failed, ctx = 000002257D3C5580, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:1e70)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 22)  PROXIED!
+[Web Request      (3564:311c)] "GET /cgi-bin/welcome.pl?page=itinerary"   
+[Network Analyzer (3564:311c)]   (Sid: 17) Client -> Server @ : 941 bytes (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 17) Server -> Client : 813 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:1ddc)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Web Request      (3564:311c)] "GET /cgi-bin/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (3564:311c)]   (Sid: 17) Client -> Server @ : 946 bytes (Service=HTTP)
+[Web Request      (3564:311c)] "GET /cgi-bin/itinerary.pl"   
+[Network Analyzer (3564:311c)]   (Sid: 19) Client -> Server @ : 929 bytes (Service=HTTP)
+[Net An. Error    (3564:1ddc)] SSLAccept(ssl_id = 2360039042272 = 000002257D49ECE0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:1ddc)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid: 19) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 19) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 19) Server -> Client : 185 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 17) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (3564:311c)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (3564:33bc)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:311c)]   (Sid: 17) Connection Terminated (by Server)
+[Net An. Error    (3564:33bc)] SSLAccept(ssl_id = 2360038794720 = 000002257D4625E0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:33bc)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid: 23) Connection Terminated (by Client)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 142.250.150.95:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 173.194.221.138:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (3564:1a04)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:1c18)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (3564:2754)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.164.94:443   (Service=)  (Sid= 27)  PROXIED!
+[Net An. Error    (3564:1a04)] SSLAccept(ssl_id = 2360038378480 = 000002257D3FCBF0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:1a04)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 173.194.220.84:443   (Service=)  (Sid= 28)  PROXIED!
+[Web Request      (3564:311c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (3564:311c)]   (Sid: 26) Client -> Server @ : 941 bytes (Service=HTTP)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:25e0)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:311c)]   (Sid: 26) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid= 30)  PROXIED!
+[Web Request      (3564:311c)] "GET /repo/certs/gts1c3.der"   
+[Network Analyzer (3564:311c)]   (Sid:  7) Client -> Server @ : 236 bytes (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 26) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:17e4)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:311c)]   (Sid:  7) Server -> Client : 1412 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid:  7) Server -> Client : 627 bytes  (Service=HTTP)
+[Network Analyzer (3564:18e4)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3564:311c)]   (Sid: 24) Connection Terminated (by Client)
+[Net An. Error    (3564:17e4)] SSLAccept(ssl_id = 2360039014224 = 000002257D497F50) Failed, ctx = 0000022579ADE8A0, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:18e4)] SSLAccept(ssl_id = 2360038263696 = 000002257D3E0B90) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:17e4)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (3564:18e4)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (3564:311c)] "GET /repo/certs/gtsr1.der"   
+[Network Analyzer (3564:311c)]   (Sid:  7) Client -> Server @ : 235 bytes (Service=HTTP)
+[Web Request      (3564:311c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3564:311c)]   (Sid: 26) Client -> Server @ : 773 bytes (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid:  7) Server -> Client : 2059 bytes  (Service=HTTP)
+[Net An. Error    (3564:25e0)] SSLAccept(ssl_id = 2360038776560 = 000002257D45DEF0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:25e0)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (3564:1c18)] SSLAccept(ssl_id = 2360037974000 = 000002257D399FF0) Failed, ctx = 000002257D3C5580, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:1c18)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:311c)]   (Sid: 26) Server -> Client : 1743 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 26) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.164.94:80   (Service=)  (Sid= 31)  PROXIED!
+[Web Request      (3564:311c)] "POST /service/update2/json?cup2key=12:o9po0LtdqMtvMnpUn0w0i_jHGv5X9u3JKMLsFchvDeM&cup2hreq=1a39275fa31d95068575b323efb1bb987046e3808c6f1091fdfd7dff727e80b6"
+[Network Analyzer (3564:311c)]   (Sid: 31) Client -> Server @ : 1259 bytes (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 31) Client -> Server @ : 9157 bytes (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 31) Server -> Client : 1085 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 31) Server -> Client : 1020 bytes  (Service=HTTP)
+[Network Analyzer (3564:311c)]   (Sid: 28) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (3564:1ea4)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Net An. Error    (3564:1ea4)] SSLAccept(ssl_id = 2360038378480 = 000002257D3FCBF0) Failed, ctx = 0000022579ADF080, err = "error", err code = 1, err msg= "error:00000001:lib(0):func(0):reason(1)
+error:14094416:SSL routines:ssl3_read_bytes:sslv3 alert certificate unknown
+" 
+[Net An. Error    (3564:1ea4)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (3564:311c)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 26) Connection Terminated (by Server)
+[Network Analyzer (3564:2754)] Address lookup for DESKTOP-46OP754 = 192.168.0.104
+[Network Analyzer (3564:2754)] Request Connection: Remote Server @ 64.233.162.95:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (3564:311c)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (3564:311c)]   (Sid: 31) Connection Terminated (by Client)

@@ -1,0 +1,594 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "upgrade-insecure-requests",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-user",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-site",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-mode",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-fetch-dest",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-platform",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua-mobile",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "sec-ch-ua",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "origin",
+      "IncludeInScript": true
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "IsWinInetMode": false,
+    "MaxUsedConnections": 10,
+    "RecordedBrowser": "Chrome",
+    "RecordingDate": "Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р вЂ Р Р†Р вЂљРЎвЂєР РЋРЎвЂєР В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В°Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РЎС›Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћвЂ“Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В РІР‚В Р В Р’В Р Р†Р вЂљРЎв„ўР В Р Р‹Р РЋРЎв„ўР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РІР‚вЂњР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В Р В Р’В Р вЂ™Р’В Р В Р’В Р Р†Р вЂљР’В Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р РЋРІвЂћСћР В Р’В Р В Р вЂ№Р В Р вЂ Р Р†Р вЂљРЎвЂєР РЋРЎвЂє-01-2023",
+    "RecordingDuration": 977797,
+    "RecordingMode": "N/A",
+    "RecordingTimeStamp": 1680371039,
+    "RecordingType": "Browser",
+    "TotalBytesReceived": 21433,
+    "TotalBytesSent": 13335,
+    "TotalRequests": 14,
+    "UserAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36"
+  },
+  "HostInfo": [
+    {
+      "DomainName": "wikipedia.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "91.198.174.192",
+          "IncludeInScript": false,
+          "Name": "www.wikipedia.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 125,
+              "EventId": 716,
+              "HttpStatus": 200,
+              "Size": 18106,
+              "URL": "https://www.wikipedia.org/"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 631,
+              "HttpStatus": 200,
+              "Size": 18106,
+              "URL": "https://www.wikipedia.org/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "91.198.174.192",
+          "IncludeInScript": false,
+          "Name": "wikipedia.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 703,
+              "HttpStatus": 301,
+              "Size": 234,
+              "URL": "https://wikipedia.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 621,
+              "HttpStatus": 301,
+              "Size": 234,
+              "URL": "https://wikipedia.org/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 612,
+              "HttpStatus": 301,
+              "Size": 234,
+              "URL": "https://wikipedia.org/"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "localhost",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[::1]",
+          "IncludeInScript": true,
+          "Name": "localhost",
+          "Port": 1080,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 79,
+              "EventId": 736,
+              "HttpStatus": 200,
+              "Size": 1486,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 733,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 711,
+              "HttpStatus": 200,
+              "Size": 2475,
+              "URL": "http://localhost:1080/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 670,
+              "HttpStatus": 200,
+              "Size": 2747,
+              "URL": "http://localhost:1080/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 647,
+              "HttpStatus": 200,
+              "Size": 2430,
+              "URL": "http://localhost:1080/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 63,
+              "EventId": 624,
+              "HttpStatus": 200,
+              "Size": 4246,
+              "URL": "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 617,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 481,
+              "HttpStatus": 200,
+              "Size": 616,
+              "URL": "http://localhost:1080/cgi-bin/welcome.pl?page=search"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 187,
+              "EventId": 433,
+              "HttpStatus": 200,
+              "Size": 918,
+              "URL": "http://localhost:1080/cgi-bin/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 94,
+              "EventId": 430,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 109,
+              "EventId": 406,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "http://localhost:1080/cgi-bin/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 262,
+              "HttpStatus": 404,
+              "Size": 209,
+              "URL": "http://localhost:1080/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 259,
+              "HttpStatus": 200,
+              "Size": 1489,
+              "URL": "http://localhost:1080/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 250,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "holax.io",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "107.22.193.119",
+          "IncludeInScript": false,
+          "Name": "holax.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 156,
+              "EventId": 409,
+              "HttpStatus": 200,
+              "Size": 13,
+              "URL": "https://holax.io/users/get_user?uuid=4dc3c72a3275c5ea9cca261533d4a597&source=be_premium"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "54.243.128.120",
+          "IncludeInScript": false,
+          "Name": "client.holax.io",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 157,
+              "EventId": 321,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://client.holax.io/client_cgi/trial_get3?now=1680371331939&ext_ver=1.208.878&conf_ver=45&uuid=4dc3c72a3275c5ea9cca261533d4a597&uuid_md5=631babb3f2c262778b41d89d56cbd00b&browser=chrome&svc_detected=0&hola_svc_detected=0&os=windows&install_ver=1.208.227&install_ts=1679222689526&cycle_n=0&interval_n=0&tmp_watermark_hide_ts=0&signed_in=0&skipped_signin_ts=0&is_premium=0&is_pro_grace_period=0&src_country=RU&ab_test_name=test_placebo&ab_test_value=off&premium_site=0&product=cws&session_key=2661939950&min_conf_ver=18"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 171,
+              "EventId": 316,
+              "HttpStatus": 200,
+              "Size": 50,
+              "URL": "https://client.holax.io/client_cgi/background_init?ext_ver=1.208.878&install_ver=1.208.227&install_ts=1679222689526&browser=chrome&product=cws&src_country=RU&uuid=4dc3c72a3275c5ea9cca261533d4a597"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 157,
+              "EventId": 309,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://client.holax.io/client_cgi/conn_test"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "holavpnrussia.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "34.237.179.253",
+          "IncludeInScript": false,
+          "Name": "perr.holavpnrussia.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 373,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://perr.holavpnrussia.com/client_cgi/perr?id=be_connectivity_check_failed&ext_ver=1.208.878&product=cws&browser=chrome&uuid=4dc3c72a3275c5ea9cca261533d4a597"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 370,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://perr.holavpnrussia.com/client_cgi/perr?id=be_agent_domain_fallback&ext_ver=1.208.878&product=cws&browser=chrome&uuid=4dc3c72a3275c5ea9cca261533d4a597"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/json",
+              "DownloadTime": 344,
+              "EventId": 323,
+              "HttpStatus": 200,
+              "Size": 2,
+              "URL": "https://perr.holavpnrussia.com/client_cgi/perr?id=be_ab_test_selected&ext_ver=1.208.878&product=cws&browser=chrome&uuid=4dc3c72a3275c5ea9cca261533d4a597"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 157,
+              "EventId": 311,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://perr.holavpnrussia.com/client_cgi/perr/conn_test"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "hola.org",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "23.22.252.240",
+          "IncludeInScript": false,
+          "Name": "perr.hola.org",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/octet-stream",
+              "DownloadTime": 140,
+              "EventId": 684,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://perr.hola.org/client_cgi/perr/conn_test"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "gvt2.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "173.194.222.94",
+          "IncludeInScript": false,
+          "Name": "beacons.gcp.gvt2.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 677,
+              "HttpStatus": 200,
+              "Size": 0,
+              "URL": "https://beacons.gcp.gvt2.com/domainreliability/upload-nel"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "googleapis.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "173.194.221.94",
+          "IncludeInScript": false,
+          "Name": "update.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/json",
+              "DownloadTime": 93,
+              "EventId": 402,
+              "HttpStatus": 200,
+              "Size": 1019,
+              "URL": "https://update.googleapis.com/service/update2/json?cup2key=12:qjlowkyGZ8RhxH0uLqLiJlKlLIjTjQ5uwORyPoGODL8&cup2hreq=54cfa4e34caed92ecff4139ee9d5be188d0b90c4f3c5ac25474119fbd46f9dda"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "173.194.222.95",
+          "IncludeInScript": false,
+          "Name": "safebrowsing.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 47,
+              "EventId": 478,
+              "HttpStatus": 200,
+              "Size": 2088,
+              "URL": "https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$req=Ch4KDGdvb2dsZWNocm9tZRIOMTExLjAuNTU2My4xNDcaKQgFEAEaGwoNCAUQBhgBIgMwMDEwARCGoRAaAhgJ3Et2niIEIAEgAigBGikIARABGhsKDQgBEAYYASIDMDAxMAEQ_YUMGgIYCYfE-dYiBCABIAIoARopCAcQARobCg0IBxAGGAEiAzAwMTABEJPWDBoCGAl_Q1hgIgQgASACKAEaJwgBEAEaGQoNCAEQBhgBIgMwMDEwAxAUGgIYCduRP_giBCABIAIoAxooCAEQCBoaCg0IARAIGAEiAzAwMTAEEJ0yGgIYCYz2fwEiBCABIAIoBBooCA8QARoaCg0IDxAGGAEiAzAwMTABEMlzGgIYCSgljLAiBCABIAIoARonCAoQCBoZCg0IChAIGAEiAzAwMTABEAcaAhgJD11FlyIEIAEgAigBGicICRABGhkKDQgJEAYYASIDMDAxMAEQIBoCGAlGah5OIgQgASACKAEaKAgIEAEaGgoNCAgQBhgBIgMwMDEwARCqEhoCGAklT5rsIgQgASACKAEaKQgNEAEaGwoNCA0QBhgBIgMwMDEwARCi4wEaAhgJ0-6MgCIEIAEgAigBGikIAxABGhsKDQgDEAYYASIDMDAxMAEQqP0LGgIYCerIPx0iBCABIAIoARopCA4QARobCg0IDhAGGAEiAzAwMTABELb5BhoCGAlS0yNeIgQgASACKAEaKAgQEAEaGgoNCBAQBhgBIgMwMDEwARD0FxoCGAm_lQAMIgQgASACKAEiAggB&$ct=application/x-protobuf&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "142.250.150.95",
+          "IncludeInScript": false,
+          "Name": "passwordsleakcheck-pa.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "application/x-protobuf",
+              "DownloadTime": 141,
+              "EventId": 483,
+              "HttpStatus": 200,
+              "Size": 155369,
+              "URL": "https://passwordsleakcheck-pa.googleapis.com/v1/leaks:lookupSingle"
+            }
+          ],
+          "SSLCipher": "",
+          "SSLVersion": ""
+        },
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "64.233.165.94",
+          "IncludeInScript": false,
+          "Name": "clientservices.googleapis.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 47,
+              "EventId": 245,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "https://clientservices.googleapis.com/chrome-variations/seed?osname=win&channel=stable&milestone=111"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    },
+    {
+      "DomainName": "google.com",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "173.194.222.100",
+          "IncludeInScript": false,
+          "Name": "clients4.google.com",
+          "Port": 443,
+          "Requests": [
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 63,
+              "EventId": 427,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clients4.google.com/ukm"
+            },
+            {
+              "CompressionType": "gzip",
+              "DataType": "text/plain",
+              "DownloadTime": 78,
+              "EventId": 399,
+              "HttpStatus": 200,
+              "Size": 22,
+              "URL": "https://clients4.google.com/ukm"
+            }
+          ],
+          "SSLCipher": "TLS_AES_256_GCM_SHA384",
+          "SSLVersion": "TLS1.3"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 6
+}

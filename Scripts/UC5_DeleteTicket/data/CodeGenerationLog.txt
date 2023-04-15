@@ -1,0 +1,2837 @@
+****** Start Log Message ******
+Web Recorder version : 2021.0.0.430 
+Recording Mode: HTML-based script containing explicit URLs only
+Recording headers not in list:
+	accept
+	accept-charset
+	accept-encoding
+	accept-language
+	accept-ranges
+	age
+	allow
+	cache-control
+	content-base
+	content-disposition
+	content-encoding
+	content-language
+	content-location
+	content-md5
+	content-range
+	content-type
+	date
+	etag
+	expires
+	from
+	if-modified-since
+	if-match
+	if-none-match
+	if-range
+	if-unmodified-since
+	location
+	last-modified
+	max-forwards
+	pragma
+	public
+	range
+	retry-after
+	server
+	transfer-encoding
+	upgrade
+	user-agent
+	vary
+	via
+	warning
+	method
+	path
+	scheme
+Not excluding content types
+Do not record this content types as a resource:
+	text/html
+	text/xml
+	application/json
+Reset context between actions
+Do not record non-HTML elements
+Protocol Type: Multi-QTWeb
+
+$$$$$$ End Log Message $$$$$$
+
+Code generation version: 2021.0.0.430
+
+****** Analyze segments filter initialization ******
+[Traffic Filtering] Filtering pki.goog
+****** Request Header For Transaction With Id 27 ******
+GET /repo/certs/gts1c3.der HTTP/1.1
+Host: pki.goog
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: Mon, 17 Aug 2020 09:45:00 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 27 Ended $$$$$$
+
+****** Response Header For Transaction With Id 27 ******
+HTTP/1.1 304 Not Modified
+Date: Sun, 09 Apr 2023 17:30:10 GMT
+Expires: Sun, 09 Apr 2023 18:20:10 GMT
+Age: 918
+Last-Modified: Mon, 17 Aug 2020 09:45:00 GMT
+Cache-Control: public, max-age=3000
+Vary: Accept-Encoding
+
+
+$$$$$$ Response Header For Transaction With Id 27 Ended $$$$$$
+
+****** Request Header For Transaction With Id 29 ******
+GET /cgi-bin/welcome.pl?signOff=true HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+
+
+$$$$$$ Request Header For Transaction With Id 29 Ended $$$$$$
+
+****** Response Header For Transaction With Id 29 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:45:28 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1681062328; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Sat, 08-Apr-2023 17:45:28 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 29 Ended $$$$$$
+
+****** Response Body For Transaction With Id 29 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 29 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 29 ****** (Location Flag : tFlagInsertEnd, Location ID : 29)
+	web_url("welcome.pl",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=true",
+		"TargetFrame=",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/WebTours/",
+		"Snapshot=t1.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 29 Ended $$$$$$
+
+[Traffic Filtering] Filtering pki.goog
+****** Request Header For Transaction With Id 37 ******
+GET /repo/certs/gtsr1.der HTTP/1.1
+Host: pki.goog
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+If-Modified-Since: Wed, 19 Aug 2020 07:45:00 GMT
+
+
+$$$$$$ Request Header For Transaction With Id 37 Ended $$$$$$
+
+****** Response Header For Transaction With Id 37 ******
+HTTP/1.1 304 Not Modified
+Date: Sun, 09 Apr 2023 17:29:46 GMT
+Expires: Sun, 09 Apr 2023 18:19:46 GMT
+Age: 943
+Last-Modified: Wed, 19 Aug 2020 07:45:00 GMT
+Cache-Control: public, max-age=3000
+
+
+$$$$$$ Response Header For Transaction With Id 37 Ended $$$$$$
+
+****** Request Header For Transaction With Id 39 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=true
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328
+
+
+$$$$$$ Request Header For Transaction With Id 39 Ended $$$$$$
+
+****** Response Header For Transaction With Id 39 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:45:29 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sat, 08 Apr 2023 17:45:29 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 39 Ended $$$$$$
+
+****** Response Body For Transaction With Id 39 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="136173.538112596HAAttczpDzzzzzzHtcAczpffic"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 39 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 43 ******
+GET /favicon.ico HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+sec-ch-ua-platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://localhost:1080/WebTours/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328
+
+
+$$$$$$ Request Header For Transaction With Id 43 Ended $$$$$$
+
+****** Response Header For Transaction With Id 43 ******
+HTTP/1.1 404 Not Found
+Date: Sun, 09 Apr 2023 17:45:29 GMT
+Server: Apache/2.2.21 (Win32)
+Content-Length: 209
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 43 Ended $$$$$$
+
+****** Response Body For Transaction With Id 43 ******
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL /favicon.ico was not found on this server.</p>
+</body></html>
+
+$$$$$$ Response Body For Transaction With Id 43 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 52 ******
+POST /cgi-bin/login.pl HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+Content-Length: 121
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:1080
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?in=home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328
+
+
+$$$$$$ Request Header For Transaction With Id 52 Ended $$$$$$
+
+****** Request Body For Transaction With Id 52 ******
+userSession=136173.538112596HAAttczpDzzzzzzHtcAczpffic&username=jojo&password=bean&login.x=77&login.y=12&JSFormSubmit=off
+$$$$$$ Request Body For Transaction With Id 52 Ended $$$$$$
+
+****** Response Header For Transaction With Id 52 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:45:42 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&3333333333333333&expDate&12%2F23%0A; path=/
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 52 Ended $$$$$$
+
+****** Response Body For Transaction With Id 52 ******
+<!--
+User password was correct - added a cookie with the user's default
+information.  Set the user up to make reservations...
+
+--->
+
+<html>
+<title>Web Tours</title>
+<frameset cols="160,*" border=1 frameborder=1>
+<frame src="nav.pl?page=menu&in=home" name="navbar" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+<frame src="login.pl?intro=true" name="info" marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+</frameset>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 52 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+/cgi-bin/welcome.pl?signOff=true
+	/cgi-bin/nav.pl?in=home
+	Form: name= action=/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 52 ****** (Location Flag : tFlagInsertEnd, Location ID : 52)
+	web_submit_data("login.pl",
+		"Action=http://localhost:1080/cgi-bin/login.pl",
+		"Method=POST",
+		"TargetFrame=body",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?in=home",
+		"Snapshot=t2.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=userSession", "Value=136173.538112596HAAttczpDzzzzzzHtcAczpffic", ENDITEM,
+		"Name=username", "Value=jojo", ENDITEM,
+		"Name=password", "Value=bean", ENDITEM,
+		"Name=login.x", "Value=77", ENDITEM,
+		"Name=login.y", "Value=12", ENDITEM,
+		"Name=JSFormSubmit", "Value=off", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 52 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("Sec-Fetch-Dest",
+		"frame");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("Sec-Fetch-Mode",
+		"navigate");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("Sec-Fetch-Site",
+		"same-origin");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("Upgrade-Insecure-Requests",
+		"1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("sec-ch-ua",
+		"\"Google Chrome\";v=\"111\", \"Not(A:Brand\";v=\"8\", \"Chromium\";v=\"111\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("sec-ch-ua-mobile",
+		"?0");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 29)
+	web_add_auto_header("sec-ch-ua-platform",
+		"\"Windows\"");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 55 ******
+GET /cgi-bin/nav.pl?page=menu&in=home HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&3333333333333333&expDate&12%2F23%0A
+
+
+$$$$$$ Request Header For Transaction With Id 55 Ended $$$$$$
+
+****** Response Header For Transaction With Id 55 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:45:42 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sat, 08 Apr 2023 17:45:42 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 55 Ended $$$$$$
+
+****** Response Body For Transaction With Id 55 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 55 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/login.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 61 ******
+GET /cgi-bin/login.pl?intro=true HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/login.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&3333333333333333&expDate&12%2F23%0A
+
+
+$$$$$$ Request Header For Transaction With Id 61 Ended $$$$$$
+
+****** Response Header For Transaction With Id 61 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:45:49 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 61 Ended $$$$$$
+
+****** Response Body For Transaction With Id 61 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Welcome to Web Tours</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: black}</style><BR/><BR/><BR/><BR/><BR/><blockquote>Welcome, <b>jojo</b>, to the Web Tours reservation pages.<BR/>Using the menu to the left, you can search for new flights to book, 
+or review/edit the flights already booked.  Don't forget to sign off when
+you're done!
+</blockquote>
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 61 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 64 ******
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&3333333333333333&expDate&12%2F23%0A
+
+
+$$$$$$ Request Header For Transaction With Id 64 Ended $$$$$$
+
+****** Response Header For Transaction With Id 64 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:45:52 GMT
+Server: Apache/2.2.21 (Win32)
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 64 Ended $$$$$$
+
+****** Response Body For Transaction With Id 64 ******
+<!-- 
+ User wants the intineraries.  Since user has already logged on,
+ we can give them the menu in the navbar.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?page=menu&in=itinerary" name="navbar" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+      <!-- Itinerary Frame -->
+      <frame src="itinerary.pl" name="info" 
+            marginheight="2" marginwidth="2" noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 64 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/login.pl
+		/cgi-bin/nav.pl?page=menu&in=home
+		/cgi-bin/login.pl?intro=true
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 64 ****** (Location Flag : tFlagInsertEnd, Location ID : 64)
+	web_url("Itinerary Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home",
+		"Snapshot=t3.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 64 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 52)
+	web_add_header("Origin",
+		"http://localhost:1080");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 52)
+	web_add_auto_header("Sec-Fetch-User",
+		"?1");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 67 ******
+GET /cgi-bin/nav.pl?page=menu&in=itinerary HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&3333333333333333&expDate&12%2F23%0A
+
+
+$$$$$$ Request Header For Transaction With Id 67 Ended $$$$$$
+
+****** Response Header For Transaction With Id 67 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:45:52 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sat, 08 Apr 2023 17:45:52 GMT
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 67 Ended $$$$$$
+
+****** Response Body For Transaction With Id 67 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+
+<style>
+	blockquote {font-family: tahoma; font-size : 10pt}
+	H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+	small {font-family: tahoma; font-size : 8pt}
+	H3{font-family: tahoma; font-size : 10pt; color: black}
+	A {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATION: none}
+	A:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DECORATION: underline}
+	TD {font-family: tahoma; font-size : 10pt; color: black}
+</style>
+
+<BR><BR><center>
+
+<br clear="both"/><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/flights.gif" 
+ALT="Search Flights Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/in_itinerary.gif" 
+ALT="Itinerary Button"/></A>
+<br clear="both"/><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/home.gif" 
+ALT="Home Button"/></A>
+<br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC="/WebTours/images/signoff.gif" 
+ALT="SignOff Button"/></A></center>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 67 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?page=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Request Header For Transaction With Id 75 ******
+GET /cgi-bin/itinerary.pl HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?page=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&3333333333333333&expDate&12%2F23%0A
+
+
+$$$$$$ Request Header For Transaction With Id 75 Ended $$$$$$
+
+****** Response Header For Transaction With Id 75 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:45:59 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sat, 08 Apr 2023 17:45:59 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 75 Ended $$$$$$
+
+****** Response Body For Transaction With Id 75 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center>
+<TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">
+<TR bgcolor="#5E7884">
+  <TD colspan="4" align="center"><font color="white"><B>Jojo Bean
+ 's Flight Transaction Summary</B></color></TD></TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="1" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123447436-830-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 792 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  03/29/2023
+ :  8am : Flight 080 leaves Denver  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="2" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123453337-1546-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 108 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 240 leaves London  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="3" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123453337-2316-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 108 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 240 leaves London  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="4" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="12344829-3106-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 386 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 10 leaves Denver  for Frankfurt.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="5" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="12344829-3875-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 386 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 10 leaves Denver  for Frankfurt.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="6" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="12347436-4676-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 792 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 80 leaves Denver  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="7" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1234607-53-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 440 leaves Paris  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="8" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123447047-6176-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 292 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 070 leaves Denver  for Seattle.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="9" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123448162-6952-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 386 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 100 leaves Frankfurt  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="10" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123465955-7754-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 805 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 580 leaves Portland  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="11" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123452232-8482-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 266 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 210 leaves London  for Frankfurt.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="12" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1234744489-92401-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 1219 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 810 leaves Sydney  for Frankfurt.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="13" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123468171-10047-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>JojoBean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 622 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 640 leaves San Francisco  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="14" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="246928918-10830-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>JojoBean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 792 <BR/> (CC: x-6667)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 080 leaves Denver  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="15" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="246947437-11600-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>JojoBean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 805 <BR/> (CC: x-6667)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/09/2023
+ :  8am : Flight 580 leaves Portland  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="16" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="2469325971-123170-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>JojoBean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 1219 <BR/> (CC: x-6667)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/09/2023
+ :  8am : Flight 180 leaves Frankfurt  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="17" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="246942986-13124-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 622 <BR/> (CC: x-6667)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/09/2023
+ :  8am : Flight 460 leaves Paris  for San Francisco.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+<TR>
+   <TD align="center" COLSPAN="4">
+   <b>A total of 17 scheduled flights.</font></b>
+   </TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">
+<TR>
+<TD align="left" width="50%" >
+<input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" border="0" /></TD>
+<TD align="right" width="50%" >
+<input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gif" border="0" /></TD>
+</TABLE>
+
+<div><input type="hidden" name=".cgifields" value="11"  /><input type="hidden" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="17"  /><input type="hidden" name=".cgifields" value="2"  /><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="16"  /><input type="hidden" name=".cgifields" value="13"  /><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidden" name=".cgifields" value="9"  /><input type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=".cgifields" value="15"  /><input type="hidden" name=".cgifields" value="8"  /><input type="hidden" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="10"  /><input type="hidden" name=".cgifields" value="5"  /></div></form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 75 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+[Traffic Filtering] Filtering pki.goog
+****** Request Header For Transaction With Id 85 ******
+GET /repo/certs/gts1c3.der HTTP/1.1
+Host: pki.goog
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 85 Ended $$$$$$
+
+****** Response Header For Transaction With Id 85 ******
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/cacerts
+Cross-Origin-Resource-Policy: same-site
+Cross-Origin-Opener-Policy: same-origin; report-to="cacerts"
+Report-To: {"group":"cacerts","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/cacerts"}]}
+Content-Length: 1304
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Date: Sun, 09 Apr 2023 17:08:38 GMT
+Expires: Sun, 09 Apr 2023 17:58:38 GMT
+Cache-Control: public, max-age=3000
+Age: 2251
+Last-Modified: Mon, 17 Aug 2020 09:45:00 GMT
+Content-Type: application/pkix-cert
+Vary: Accept-Encoding
+
+
+$$$$$$ Response Header For Transaction With Id 85 Ended $$$$$$
+
+****** Response Body For Transaction With Id 85 ******
+0\x82\x05\x960\x82\x03~\xA0\x03\x02\x01\x02\x02\x02\x03\xBCSYk4\xC7\x18\xF5\x01Pf0\x06	*\x86H\x86\xF7\x01\x01\x0B\x05\x000G1\x0B0	\x06\x03U\x04\x06\x13\x02US1"0 \x06\x03U\x04
+\x13\x19Google Trust Services LLC1\x140\x12\x06\x03U\x04\x03\x13\x0BGTS Root R10\x1E\x17200813000042Z\x17270930000042Z0F1\x0B0	\x06\x03U\x04\x06\x13\x02US1"0 \x06\x03U\x04
+\x13\x19Google Trust Services LLC1\x130\x11\x06\x03U\x04\x03\x13
+GTS CA 1C30\x82\x01"0\x06	*\x86H\x86\xF7\x01\x01\x01\x05\x00\x03\x82\x01\x0F\x000\x82\x01
+\x02\x82\x01\x01\x00\xF5\x88\xDF\xE7b\x8C\x1E7\xF87B\x90\x7Fl\x87\xD0\xFBe\x82%\xFD\xE8\xCBk\xA4\xFFm\xE9Z#\xE2\x99\xF6\x1C\xE9\x92\x03\x99\x13|	
+\x8A\xFAB\xD6^V$\xAAz3\x84\x1F\xD1\xE9i\xBB\xB9t\xECWLfh\x93w7US\xFE9\x10M\xB74\xBB_%w7;\x17\x94\xEA<\xE5\x9D\xD5\xBC\xC3\xB4C\xEB.\xA7G\xEF\xB0D\x11c\xD8\xB4A\x85\xDDA0H\x93\x1B\xBF\xB7\xF6\xE0E\x02!\xE0\x96B\x17\xCF\xD9+eV4\x07&\x04\xA8\xFD}\xCA.\xEF\xEAH|7M?\x00\x9F\x83\xDF\xEFu\x84.yW\\\xFCWn\x1A\x96\xFF\xFC\x8C\x9A\xA6\x99\xBE%\xD9\x7F\x96,\x06\xF7\x11*\x02\x80\x80\xEBc\x18<PI\x87\xE5\x8A\xCA_\x19+Y\x96\x81\x00\xA0\xFBQ\xDB\xCAw\x0B\x0B\xC9\x96O\xEFpI\xC7\\m \xFD\x99\xB4\xB4\xE2\xCA.w\xFD-\xDC\x0B\xB6k\x13\x0C\x8C\x19+\x17\x96\x98\xB9\xF0\x8B\xF6\xA0'\xBB\xB6\xE3\x8DQ\x8F\xBD\xAE\xC7\x9B\xB1\x89\x9D\x02\x03\x01\x00\x01\xA3\x82\x01\x800\x82\x01|0\x0E\x06\x03U\x1D\x0F\x01\x01\xFF\x04\x04\x03\x02\x01\x860\x1D\x06\x03U\x1D%\x04\x160\x14\x06\x08+\x06\x01\x05\x05\x07\x03\x01\x06\x08+\x06\x01\x05\x05\x07\x03\x020\x12\x06\x03U\x1D\x13\x01\x01\xFF\x04\x080\x06\x01\x01\xFF\x02\x01\x000\x1D\x06\x03U\x1D\x0E\x04\x16\x04\x14\x8At\x7F\xAF\x85\xCD\xEE\x95\xCD=\x9C\xD0\xE2F\x14\xF3q5\x1D'0\x1F\x06\x03U\x1D#\x04\x180\x16\x80\x14\xE4\xAF+&q\x1A+H'\x85/Rf,\xEF\xF0\x89\x13q>0h\x06\x08+\x06\x01\x05\x05\x07\x01\x01\x04\\0Z0&\x06\x08+\x06\x01\x05\x05\x070\x01\x86\x1Ahttp://ocsp.pki.goog/gtsr100\x06\x08+\x06\x01\x05\x05\x070\x02\x86$http://pki.goog/repo/certs/gtsr1.der04\x06\x03U\x1D\x1F\x04-0+0)\xA0'\xA0%\x86#http://crl.pki.goog/gtsr1/gtsr1.crl0W\x06\x03U\x1D \x04P0N08\x06
++\x06\x01\x04\x01\xD6y\x02\x05\x030*0(\x06\x08+\x06\x01\x05\x05\x07\x02\x01\x16\x1Chttps://pki.goog/repository/0\x08\x06\x06g\x81\x0C\x01\x02\x010\x08\x06\x06g\x81\x0C\x01\x02\x020\x06	*\x86H\x86\xF7\x01\x01\x0B\x05\x00\x03\x82\x02\x01\x00\x89}\xAC \\\x0C<\xBE\x9A\xA8W\x95\x1B\xB4\xAE\xFA\xAB\xA5rq\xB46\x95\xFD\xDF@\x11\x03L\xC2F\x14\xBB\x14$\xAB\xF0Pq"\xDB\xAD\xC4n\x7F\xCF\xF1jo\xC8\x83\x1B\xD8\xCE\x89_\x87l\x87\xB8\xA9\x0C\xA3\x9B\xA1b\x94\x93\x95\xDF[\xAEf\x19\x0B\x02\x96\x9E\xFC\xB5\xE7\x10i>z\xCBFI_F\xE1A\xB1\xD7\x98Me4\x00\x80\x1A?O\x9Fl\x7FI\x00\x81SA\xA4\x92!\x82\x82\x1A\xF1\xA3D[*P\x12\x13M\xC1S6\xF3B\x08\xAFT\xFA\x8EwS\x1Bd8'\x17	\xBDX\xC9\x1B|9-[\xF3\xCE\xD4\xED\x97\xDB\x14\x03\xBF	S$\x1F\xC2\x0C\x04y\x98&\xF2a\xF1SR\xFDB\x8C\x1Bf+?\x15\xA1\xBB\xFF\xF6\x9B\xE3\x81\x9A\x01\x06q\x895($\xDD\xE1\xBD\xEB\x19-\xE1H\xCB=Y\x83Q\xB4t\xC6\x9D|\xC6\xB1\x86[\xAF\xCC4\xC4\xD3\xCC\xD4\x81\x11\x95\x00\xA1\xF4\x12"\x01\xFA\xB4\x83q\xAF\x8C\xB7\x8Cs$\xAC7S\xC2\x00\x90?\x11\xFE\\\xED6\x94\x10;\xBD)\xAE\xE2\xC7:b;lc\xD9\x80\xBFYq\xACc'\xB9L\x17\xA0\xDA\xF6s\x15\xBF*\xDE\x8F\xF3\xA5l2\x813\x03\xD0\x86Qq\x994\xBA\x93\x8D]\xB5QX\xF7\xB2\x93\xE8\x01\xF6Y\xBEq\x9B\xFDM(\xCE\xCFm\xC7\x16\xDC\xF7\xD1\xD6F\x9B\xA7\xCAk\xE9w\x0F\xFD\xA0\xB6\x1B#\x83\x1D\x10\x1A\xD9	\x00\x84\xE0D\xD3\xA2u#\xB34\x86\xF6 \xB0\xA4^\x10\x1D\xE0RF\x00\x9D\xB1\x0F\x1F!pQ\xF5\x9A\xDD\x06\xFCU\xF4+\x0E3w\xC3KB\xC2\xF1w\x13\xFCs\x80\x94\xEB\x1F\xBB7?\xCE\x02*f\xB0s\x1D2\xA52l2\xB0\x8E\xE0\xC4#\xFF[}Mep\xAC+\x9B=\xCE\xDB\xE0m\x8E2\x80\xBE\x96\x9F\x92c\xBC\x97\xBB]\xB9\xF4\xE1q^*\xE4\xEF\x03"\xB1\x8Ae:\x8F\xC0\x93e\xD4\x85\xCD\x0F\x0F[\x83Y\x16G\x16-\x9C$:\xC8\x80\xA6&\x14\x85\x9B\xF67\x9B\xACo\xF9\xC5\xC3\x06Q\xF3\xE2\x7F\xC5\xB1\x10\xBAQ\xF4\xDD
+$$$$$$ Response Body For Transaction With Id 85 Ended $$$$$$
+
+[Traffic Filtering] Filtering pki.goog
+****** Request Header For Transaction With Id 89 ******
+GET /repo/certs/gtsr1.der HTTP/1.1
+Host: pki.goog
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 89 Ended $$$$$$
+
+****** Response Header For Transaction With Id 89 ******
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/cacerts
+Cross-Origin-Resource-Policy: same-site
+Cross-Origin-Opener-Policy: same-origin; report-to="cacerts"
+Report-To: {"group":"cacerts","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/cacerts"}]}
+Content-Length: 1371
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Date: Sun, 09 Apr 2023 17:00:39 GMT
+Expires: Sun, 09 Apr 2023 17:50:39 GMT
+Cache-Control: public, max-age=3000
+Age: 2730
+Last-Modified: Wed, 19 Aug 2020 07:45:00 GMT
+Content-Type: application/pkix-cert
+
+
+$$$$$$ Response Header For Transaction With Id 89 Ended $$$$$$
+
+****** Response Body For Transaction With Id 89 ******
+0\x82\x05W0\x82\x03?\xA0\x03\x02\x01\x02\x02\x02\x03\xE5\x93o1\xB0\x13I\x88k\xA2\x170\x06	*\x86H\x86\xF7\x01\x01\x0C\x05\x000G1\x0B0	\x06\x03U\x04\x06\x13\x02US1"0 \x06\x03U\x04
+\x13\x19Google Trust Services LLC1\x140\x12\x06\x03U\x04\x03\x13\x0BGTS Root R10\x1E\x17160622000000Z\x17360622000000Z0G1\x0B0	\x06\x03U\x04\x06\x13\x02US1"0 \x06\x03U\x04
+\x13\x19Google Trust Services LLC1\x140\x12\x06\x03U\x04\x03\x13\x0BGTS Root R10\x82\x02"0\x06	*\x86H\x86\xF7\x01\x01\x01\x05\x00\x03\x82\x02\x0F\x000\x82\x02
+\x02\x82\x02\x01\x00\xB6\x11\x02\x8B\x1E\xE3\xA1w\x9B;\xDC\xBF\x94>\xB7\x95\xA7@<\xA1\xFD\x82\xF9}2\x06\x82q\xF6\xF6\x8C\x7F\xFB\xE8\xDB\xBCj.\x97\x97\xA3\x8CK\xF9+\xF6\xB1\xF9\xCE\x84\x1D\xB1\xF9\xC5\x97\xDE\xEF\xB9\xF2\xA3\xE9\xBC\x12\x89^\xA7\xAAR\xAB\xF8#'\xCB\xA4\xB1\x9Cc\xDB\xD7\x99~\xF0
+^\xEBh\xA6\xF4\xC6ZGM\x103\xE3N\xB1\x13\xA3\xC8\x18lK\xEC\xFC	\x90\xDF\x9Dd)%#\x07\xA1\xB4\xD2=.`\xE0\xCF\xD2	\x87\xBB\xCDH\xF0M\xC2\xC2z\x88\x8A\xBB\xBA\xCFY\x19\xD6\xAF\x8F\xB0\x07\xB0\x9E1\xF1\x82\xC1\xC0\xDF.\xA6ml\x19\x0E\xB5\xD8~&\x1AE\x03=\xB0y\xA4\x94(\xAD\x0F\x7F&\xE5\xA8\x08\xFE\x96\xE8<h\x94S\xEE\x83:\x88+\x15\x96	\xB2\xE0z\x8C.u\xD6\x9C\xEB\xA7Vd\x8F\x96Oh\xAE=\x97\xC2\x84\x8F\xC0\xBC@\xC0\x0B\\\xBD\xF6\x87\xB35l\xAC\x18P\x7F\x84\xE0L\xCD\x92\xD3 \xE93\xBCR\x99\xAF2\xB5)\xB3%*\xB4H\xF9r\xE1\xCAd\xF7\xE6\x82\x10\x8D\xE8\x9D\xC2\x8A\x88\xFA8f\x8A\xFCc\xF9\x01\xF9x\xFD{\\w\xFAv\x87\xFA\xEC\xDF\xB1\x0Ey\x95W\xB4\xBD&\xEF\xD6\x01\xD1\xEB\x16
+\xBB\x8E\x0B\xB5\xC5\xC5\x8AU\xAB\xD3\xAC\xEA\x91K)\xCC\x19\xA42%N*\xF1eD\xD0\x02\xCE\xAA\xCEI\xB4\xEA\x9F|\x83\xB0@{\xE7C\xAB\xA7l\xA3\x8F}\x89\x81\xFAL\xA5\xFF\xD5\x8E\xC3\xCEK\xE0\xB5\xD8\xB3\x8EE\xCFv\xC0\xED@+\xFDS\x0F\xB0\xA7\xD5;\xB1\x8A\xA2\x03\xDE1\xAD\xCCw\xEAo{>\xD6\xDF\x91"\x12\xE6\xBE\xFA\xD82\xFC\x10c\x14Qr\xDE]\xD6\x16\x93\xBD)h3\xEF:f\xEC\x07\x8A&\xDF\x13\xD7Wex'\xDE^I\x14\x00\xA2\x00\x7F\x9A\xA8!\xB6\xA9\xB1\x95\xB0\xA5\xB9\x16\x11\xDA\xC7lH<@\xE0~Z\xCDV<\xD1\x97\x05\xB9\xCBK\xED9K\x9C\xC4?\xD2U\x13n$\xB0\xD6q\xFA\xF4\xC1\xBA\xCC\xED\x1B\xF5\xFE\x81A\xD8\x00\x98=:\xC8\xAEz\x987\x18\x05\x95\x02\x03\x01\x00\x01\xA3B0@0\x0E\x06\x03U\x1D\x0F\x01\x01\xFF\x04\x04\x03\x02\x01\x860\x0F\x06\x03U\x1D\x13\x01\x01\xFF\x04\x050\x03\x01\x01\xFF0\x1D\x06\x03U\x1D\x0E\x04\x16\x04\x14\xE4\xAF+&q\x1A+H'\x85/Rf,\xEF\xF0\x89\x13q>0\x06	*\x86H\x86\xF7\x01\x01\x0C\x05\x00\x03\x82\x02\x01\x00\x9F\xAAB&\xDB\x0B\x9B\xBE\xFF\x1E\x96\x92.>\xA2eJj\x98\xBA"\xCB}\xC1:\xD8\x82
+\x06\xC6\xF6\xA5\xDE\xC0N\x87fy\xA1\xF9\xA6X\x9C\xAA\xF9\xB5\xE6`\xE7\xE0\xE8\xB1\x1EBA3\x0B7=\xCE\x89p\x15\xCA\xB5$\xA8\xCFk\xB5\xD2@!\x98\xCF"4\xCF;\xC5"\x84\xE0\xC5\x0E\x8A|]\x88\xE45$\xCE\x9B>\x1AT\x1En\xDB\xB2\x87\xA7\xFC\xF3\xFA\x81U\x14b
+Y\xA9"\x051>\x82\xD6\xEE\xDBW4\xBC3\x95\xD3\x17\x1B\xE8'\xA2\x8B{N&\x1AzZd\xB6\xD1\xAC7\xF1\xFD\xA0\xF38\xECr\xF0\x11u\x9D\xCB4R\x8D\xE6vk\x17\xC6\xDF\x86\xAB'\x8EI+uf\x81\x10!\xA6\xEA>\xF4\xAE%\xFF|\x15\xDE\xCE\x8C%?\xCAbp
+\xF7/	f\x07\xC8?\x1C\xFC\xF0\xDBE0\xDFb\x88\xC1\xB5\x0F\x9D\xC3\x9FJ\xDEYYG\xC5\x87"6\xE6\x82\xA7\xED
+\xB9\xE2\x07\xA0\x8D{zJ<q\xD2\xE2\x03\xA1\x1F2\x07\xDD\x1B\xE4B\xCE\x0C\x00Ea\x80\xB5\x0B Y)x\xBD\xF9U\xCBc\xC5<L\xF4\xB6\xFF\xDBj_1k\x99\x9E,\xC1kP\xA4\xD7\xE6\x18\x14\xBD\x85?g\xABF\x9F\xA0\xFFB\xA7:\x7F\\\xCB]\xB0p\x1D+4\xF5\xD4v	\x0C\xEBxLY\x05\xF33B\xC3a\x15\x10\x1BwM\xCE"\x8C\xD4\x85\xF2E}\xB7S\xEA\xEF@Z\x94
+\\ _N@]b"v\xDF\xFF\xCEa\xBD\x8C#x\xD27\x02\xE0\x8E\xDE\xD1\x117\x89\xF6\xBF\xEDI\x07b\xAE\x92\xEC@\x1A\xAF\x14	\xD9\xD0N\xB2\xA2\xF7\xBE\xEE\xEE\xD8\xFF\xDC\x1A-\xDE\xB86q\xE2\xFCy\xB7\x94%\xD1Hs[\xA15\xE7\xB3\x99gu\xC1\x19:+GN\xD3B\x8E\xFD1\xC8\x16f\xDA\xD2\x0C<\xDB\xB3\x8E\xC9\xA1\x80\x0F{\x16w\x14\xBF\xFF\xDB	\x94\xB2\x93\xBC X\x15\xE9\xDBqC\xF3\xDE\x10\xC3\x00\xDC\xA8*\x95\xB6\xC2\xD6?\x90kv\xDBl\xFE\x8C\xBC\xF2p5\x0C\xDC\x99\x195\xDC\xD7\xC8Fc\xD56q\xAEW\xFB\xB7\x82m\xDC
+$$$$$$ Response Body For Transaction With Id 89 Ended $$$$$$
+
+[Traffic Filtering] Filtering pki.goog
+****** Request Header For Transaction With Id 92 ******
+GET /repo/certs/gts1c3.der HTTP/1.1
+Host: pki.goog
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 92 Ended $$$$$$
+
+****** Response Header For Transaction With Id 92 ******
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/cacerts
+Cross-Origin-Resource-Policy: same-site
+Cross-Origin-Opener-Policy: same-origin; report-to="cacerts"
+Report-To: {"group":"cacerts","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/cacerts"}]}
+Content-Length: 1304
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Date: Sun, 09 Apr 2023 17:36:11 GMT
+Expires: Sun, 09 Apr 2023 18:26:11 GMT
+Cache-Control: public, max-age=3000
+Age: 599
+Last-Modified: Mon, 17 Aug 2020 09:45:00 GMT
+Content-Type: application/pkix-cert
+Vary: Accept-Encoding
+
+
+$$$$$$ Response Header For Transaction With Id 92 Ended $$$$$$
+
+****** Response Body For Transaction With Id 92 ******
+0\x82\x05\x960\x82\x03~\xA0\x03\x02\x01\x02\x02\x02\x03\xBCSYk4\xC7\x18\xF5\x01Pf0\x06	*\x86H\x86\xF7\x01\x01\x0B\x05\x000G1\x0B0	\x06\x03U\x04\x06\x13\x02US1"0 \x06\x03U\x04
+\x13\x19Google Trust Services LLC1\x140\x12\x06\x03U\x04\x03\x13\x0BGTS Root R10\x1E\x17200813000042Z\x17270930000042Z0F1\x0B0	\x06\x03U\x04\x06\x13\x02US1"0 \x06\x03U\x04
+\x13\x19Google Trust Services LLC1\x130\x11\x06\x03U\x04\x03\x13
+GTS CA 1C30\x82\x01"0\x06	*\x86H\x86\xF7\x01\x01\x01\x05\x00\x03\x82\x01\x0F\x000\x82\x01
+\x02\x82\x01\x01\x00\xF5\x88\xDF\xE7b\x8C\x1E7\xF87B\x90\x7Fl\x87\xD0\xFBe\x82%\xFD\xE8\xCBk\xA4\xFFm\xE9Z#\xE2\x99\xF6\x1C\xE9\x92\x03\x99\x13|	
+\x8A\xFAB\xD6^V$\xAAz3\x84\x1F\xD1\xE9i\xBB\xB9t\xECWLfh\x93w7US\xFE9\x10M\xB74\xBB_%w7;\x17\x94\xEA<\xE5\x9D\xD5\xBC\xC3\xB4C\xEB.\xA7G\xEF\xB0D\x11c\xD8\xB4A\x85\xDDA0H\x93\x1B\xBF\xB7\xF6\xE0E\x02!\xE0\x96B\x17\xCF\xD9+eV4\x07&\x04\xA8\xFD}\xCA.\xEF\xEAH|7M?\x00\x9F\x83\xDF\xEFu\x84.yW\\\xFCWn\x1A\x96\xFF\xFC\x8C\x9A\xA6\x99\xBE%\xD9\x7F\x96,\x06\xF7\x11*\x02\x80\x80\xEBc\x18<PI\x87\xE5\x8A\xCA_\x19+Y\x96\x81\x00\xA0\xFBQ\xDB\xCAw\x0B\x0B\xC9\x96O\xEFpI\xC7\\m \xFD\x99\xB4\xB4\xE2\xCA.w\xFD-\xDC\x0B\xB6k\x13\x0C\x8C\x19+\x17\x96\x98\xB9\xF0\x8B\xF6\xA0'\xBB\xB6\xE3\x8DQ\x8F\xBD\xAE\xC7\x9B\xB1\x89\x9D\x02\x03\x01\x00\x01\xA3\x82\x01\x800\x82\x01|0\x0E\x06\x03U\x1D\x0F\x01\x01\xFF\x04\x04\x03\x02\x01\x860\x1D\x06\x03U\x1D%\x04\x160\x14\x06\x08+\x06\x01\x05\x05\x07\x03\x01\x06\x08+\x06\x01\x05\x05\x07\x03\x020\x12\x06\x03U\x1D\x13\x01\x01\xFF\x04\x080\x06\x01\x01\xFF\x02\x01\x000\x1D\x06\x03U\x1D\x0E\x04\x16\x04\x14\x8At\x7F\xAF\x85\xCD\xEE\x95\xCD=\x9C\xD0\xE2F\x14\xF3q5\x1D'0\x1F\x06\x03U\x1D#\x04\x180\x16\x80\x14\xE4\xAF+&q\x1A+H'\x85/Rf,\xEF\xF0\x89\x13q>0h\x06\x08+\x06\x01\x05\x05\x07\x01\x01\x04\\0Z0&\x06\x08+\x06\x01\x05\x05\x070\x01\x86\x1Ahttp://ocsp.pki.goog/gtsr100\x06\x08+\x06\x01\x05\x05\x070\x02\x86$http://pki.goog/repo/certs/gtsr1.der04\x06\x03U\x1D\x1F\x04-0+0)\xA0'\xA0%\x86#http://crl.pki.goog/gtsr1/gtsr1.crl0W\x06\x03U\x1D \x04P0N08\x06
++\x06\x01\x04\x01\xD6y\x02\x05\x030*0(\x06\x08+\x06\x01\x05\x05\x07\x02\x01\x16\x1Chttps://pki.goog/repository/0\x08\x06\x06g\x81\x0C\x01\x02\x010\x08\x06\x06g\x81\x0C\x01\x02\x020\x06	*\x86H\x86\xF7\x01\x01\x0B\x05\x00\x03\x82\x02\x01\x00\x89}\xAC \\\x0C<\xBE\x9A\xA8W\x95\x1B\xB4\xAE\xFA\xAB\xA5rq\xB46\x95\xFD\xDF@\x11\x03L\xC2F\x14\xBB\x14$\xAB\xF0Pq"\xDB\xAD\xC4n\x7F\xCF\xF1jo\xC8\x83\x1B\xD8\xCE\x89_\x87l\x87\xB8\xA9\x0C\xA3\x9B\xA1b\x94\x93\x95\xDF[\xAEf\x19\x0B\x02\x96\x9E\xFC\xB5\xE7\x10i>z\xCBFI_F\xE1A\xB1\xD7\x98Me4\x00\x80\x1A?O\x9Fl\x7FI\x00\x81SA\xA4\x92!\x82\x82\x1A\xF1\xA3D[*P\x12\x13M\xC1S6\xF3B\x08\xAFT\xFA\x8EwS\x1Bd8'\x17	\xBDX\xC9\x1B|9-[\xF3\xCE\xD4\xED\x97\xDB\x14\x03\xBF	S$\x1F\xC2\x0C\x04y\x98&\xF2a\xF1SR\xFDB\x8C\x1Bf+?\x15\xA1\xBB\xFF\xF6\x9B\xE3\x81\x9A\x01\x06q\x895($\xDD\xE1\xBD\xEB\x19-\xE1H\xCB=Y\x83Q\xB4t\xC6\x9D|\xC6\xB1\x86[\xAF\xCC4\xC4\xD3\xCC\xD4\x81\x11\x95\x00\xA1\xF4\x12"\x01\xFA\xB4\x83q\xAF\x8C\xB7\x8Cs$\xAC7S\xC2\x00\x90?\x11\xFE\\\xED6\x94\x10;\xBD)\xAE\xE2\xC7:b;lc\xD9\x80\xBFYq\xACc'\xB9L\x17\xA0\xDA\xF6s\x15\xBF*\xDE\x8F\xF3\xA5l2\x813\x03\xD0\x86Qq\x994\xBA\x93\x8D]\xB5QX\xF7\xB2\x93\xE8\x01\xF6Y\xBEq\x9B\xFDM(\xCE\xCFm\xC7\x16\xDC\xF7\xD1\xD6F\x9B\xA7\xCAk\xE9w\x0F\xFD\xA0\xB6\x1B#\x83\x1D\x10\x1A\xD9	\x00\x84\xE0D\xD3\xA2u#\xB34\x86\xF6 \xB0\xA4^\x10\x1D\xE0RF\x00\x9D\xB1\x0F\x1F!pQ\xF5\x9A\xDD\x06\xFCU\xF4+\x0E3w\xC3KB\xC2\xF1w\x13\xFCs\x80\x94\xEB\x1F\xBB7?\xCE\x02*f\xB0s\x1D2\xA52l2\xB0\x8E\xE0\xC4#\xFF[}Mep\xAC+\x9B=\xCE\xDB\xE0m\x8E2\x80\xBE\x96\x9F\x92c\xBC\x97\xBB]\xB9\xF4\xE1q^*\xE4\xEF\x03"\xB1\x8Ae:\x8F\xC0\x93e\xD4\x85\xCD\x0F\x0F[\x83Y\x16G\x16-\x9C$:\xC8\x80\xA6&\x14\x85\x9B\xF67\x9B\xACo\xF9\xC5\xC3\x06Q\xF3\xE2\x7F\xC5\xB1\x10\xBAQ\xF4\xDD
+$$$$$$ Response Body For Transaction With Id 92 Ended $$$$$$
+
+[Traffic Filtering] Filtering pki.goog
+****** Request Header For Transaction With Id 96 ******
+GET /repo/certs/gtsr1.der HTTP/1.1
+Host: pki.goog
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 96 Ended $$$$$$
+
+****** Response Header For Transaction With Id 96 ******
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Content-Security-Policy-Report-Only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/cacerts
+Cross-Origin-Resource-Policy: same-site
+Cross-Origin-Opener-Policy: same-origin; report-to="cacerts"
+Report-To: {"group":"cacerts","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/cacerts"}]}
+Content-Length: 1371
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Date: Sun, 09 Apr 2023 17:00:10 GMT
+Expires: Sun, 09 Apr 2023 17:50:10 GMT
+Cache-Control: public, max-age=3000
+Age: 2765
+Last-Modified: Wed, 19 Aug 2020 07:45:00 GMT
+Content-Type: application/pkix-cert
+
+
+$$$$$$ Response Header For Transaction With Id 96 Ended $$$$$$
+
+****** Response Body For Transaction With Id 96 ******
+0\x82\x05W0\x82\x03?\xA0\x03\x02\x01\x02\x02\x02\x03\xE5\x93o1\xB0\x13I\x88k\xA2\x170\x06	*\x86H\x86\xF7\x01\x01\x0C\x05\x000G1\x0B0	\x06\x03U\x04\x06\x13\x02US1"0 \x06\x03U\x04
+\x13\x19Google Trust Services LLC1\x140\x12\x06\x03U\x04\x03\x13\x0BGTS Root R10\x1E\x17160622000000Z\x17360622000000Z0G1\x0B0	\x06\x03U\x04\x06\x13\x02US1"0 \x06\x03U\x04
+\x13\x19Google Trust Services LLC1\x140\x12\x06\x03U\x04\x03\x13\x0BGTS Root R10\x82\x02"0\x06	*\x86H\x86\xF7\x01\x01\x01\x05\x00\x03\x82\x02\x0F\x000\x82\x02
+\x02\x82\x02\x01\x00\xB6\x11\x02\x8B\x1E\xE3\xA1w\x9B;\xDC\xBF\x94>\xB7\x95\xA7@<\xA1\xFD\x82\xF9}2\x06\x82q\xF6\xF6\x8C\x7F\xFB\xE8\xDB\xBCj.\x97\x97\xA3\x8CK\xF9+\xF6\xB1\xF9\xCE\x84\x1D\xB1\xF9\xC5\x97\xDE\xEF\xB9\xF2\xA3\xE9\xBC\x12\x89^\xA7\xAAR\xAB\xF8#'\xCB\xA4\xB1\x9Cc\xDB\xD7\x99~\xF0
+^\xEBh\xA6\xF4\xC6ZGM\x103\xE3N\xB1\x13\xA3\xC8\x18lK\xEC\xFC	\x90\xDF\x9Dd)%#\x07\xA1\xB4\xD2=.`\xE0\xCF\xD2	\x87\xBB\xCDH\xF0M\xC2\xC2z\x88\x8A\xBB\xBA\xCFY\x19\xD6\xAF\x8F\xB0\x07\xB0\x9E1\xF1\x82\xC1\xC0\xDF.\xA6ml\x19\x0E\xB5\xD8~&\x1AE\x03=\xB0y\xA4\x94(\xAD\x0F\x7F&\xE5\xA8\x08\xFE\x96\xE8<h\x94S\xEE\x83:\x88+\x15\x96	\xB2\xE0z\x8C.u\xD6\x9C\xEB\xA7Vd\x8F\x96Oh\xAE=\x97\xC2\x84\x8F\xC0\xBC@\xC0\x0B\\\xBD\xF6\x87\xB35l\xAC\x18P\x7F\x84\xE0L\xCD\x92\xD3 \xE93\xBCR\x99\xAF2\xB5)\xB3%*\xB4H\xF9r\xE1\xCAd\xF7\xE6\x82\x10\x8D\xE8\x9D\xC2\x8A\x88\xFA8f\x8A\xFCc\xF9\x01\xF9x\xFD{\\w\xFAv\x87\xFA\xEC\xDF\xB1\x0Ey\x95W\xB4\xBD&\xEF\xD6\x01\xD1\xEB\x16
+\xBB\x8E\x0B\xB5\xC5\xC5\x8AU\xAB\xD3\xAC\xEA\x91K)\xCC\x19\xA42%N*\xF1eD\xD0\x02\xCE\xAA\xCEI\xB4\xEA\x9F|\x83\xB0@{\xE7C\xAB\xA7l\xA3\x8F}\x89\x81\xFAL\xA5\xFF\xD5\x8E\xC3\xCEK\xE0\xB5\xD8\xB3\x8EE\xCFv\xC0\xED@+\xFDS\x0F\xB0\xA7\xD5;\xB1\x8A\xA2\x03\xDE1\xAD\xCCw\xEAo{>\xD6\xDF\x91"\x12\xE6\xBE\xFA\xD82\xFC\x10c\x14Qr\xDE]\xD6\x16\x93\xBD)h3\xEF:f\xEC\x07\x8A&\xDF\x13\xD7Wex'\xDE^I\x14\x00\xA2\x00\x7F\x9A\xA8!\xB6\xA9\xB1\x95\xB0\xA5\xB9\x16\x11\xDA\xC7lH<@\xE0~Z\xCDV<\xD1\x97\x05\xB9\xCBK\xED9K\x9C\xC4?\xD2U\x13n$\xB0\xD6q\xFA\xF4\xC1\xBA\xCC\xED\x1B\xF5\xFE\x81A\xD8\x00\x98=:\xC8\xAEz\x987\x18\x05\x95\x02\x03\x01\x00\x01\xA3B0@0\x0E\x06\x03U\x1D\x0F\x01\x01\xFF\x04\x04\x03\x02\x01\x860\x0F\x06\x03U\x1D\x13\x01\x01\xFF\x04\x050\x03\x01\x01\xFF0\x1D\x06\x03U\x1D\x0E\x04\x16\x04\x14\xE4\xAF+&q\x1A+H'\x85/Rf,\xEF\xF0\x89\x13q>0\x06	*\x86H\x86\xF7\x01\x01\x0C\x05\x00\x03\x82\x02\x01\x00\x9F\xAAB&\xDB\x0B\x9B\xBE\xFF\x1E\x96\x92.>\xA2eJj\x98\xBA"\xCB}\xC1:\xD8\x82
+\x06\xC6\xF6\xA5\xDE\xC0N\x87fy\xA1\xF9\xA6X\x9C\xAA\xF9\xB5\xE6`\xE7\xE0\xE8\xB1\x1EBA3\x0B7=\xCE\x89p\x15\xCA\xB5$\xA8\xCFk\xB5\xD2@!\x98\xCF"4\xCF;\xC5"\x84\xE0\xC5\x0E\x8A|]\x88\xE45$\xCE\x9B>\x1AT\x1En\xDB\xB2\x87\xA7\xFC\xF3\xFA\x81U\x14b
+Y\xA9"\x051>\x82\xD6\xEE\xDBW4\xBC3\x95\xD3\x17\x1B\xE8'\xA2\x8B{N&\x1AzZd\xB6\xD1\xAC7\xF1\xFD\xA0\xF38\xECr\xF0\x11u\x9D\xCB4R\x8D\xE6vk\x17\xC6\xDF\x86\xAB'\x8EI+uf\x81\x10!\xA6\xEA>\xF4\xAE%\xFF|\x15\xDE\xCE\x8C%?\xCAbp
+\xF7/	f\x07\xC8?\x1C\xFC\xF0\xDBE0\xDFb\x88\xC1\xB5\x0F\x9D\xC3\x9FJ\xDEYYG\xC5\x87"6\xE6\x82\xA7\xED
+\xB9\xE2\x07\xA0\x8D{zJ<q\xD2\xE2\x03\xA1\x1F2\x07\xDD\x1B\xE4B\xCE\x0C\x00Ea\x80\xB5\x0B Y)x\xBD\xF9U\xCBc\xC5<L\xF4\xB6\xFF\xDBj_1k\x99\x9E,\xC1kP\xA4\xD7\xE6\x18\x14\xBD\x85?g\xABF\x9F\xA0\xFFB\xA7:\x7F\\\xCB]\xB0p\x1D+4\xF5\xD4v	\x0C\xEBxLY\x05\xF33B\xC3a\x15\x10\x1BwM\xCE"\x8C\xD4\x85\xF2E}\xB7S\xEA\xEF@Z\x94
+\\ _N@]b"v\xDF\xFF\xCEa\xBD\x8C#x\xD27\x02\xE0\x8E\xDE\xD1\x117\x89\xF6\xBF\xEDI\x07b\xAE\x92\xEC@\x1A\xAF\x14	\xD9\xD0N\xB2\xA2\xF7\xBE\xEE\xEE\xD8\xFF\xDC\x1A-\xDE\xB86q\xE2\xFCy\xB7\x94%\xD1Hs[\xA15\xE7\xB3\x99gu\xC1\x19:+GN\xD3B\x8E\xFD1\xC8\x16f\xDA\xD2\x0C<\xDB\xB3\x8E\xC9\xA1\x80\x0F{\x16w\x14\xBF\xFF\xDB	\x94\xB2\x93\xBC X\x15\xE9\xDBqC\xF3\xDE\x10\xC3\x00\xDC\xA8*\x95\xB6\xC2\xD6?\x90kv\xDBl\xFE\x8C\xBC\xF2p5\x0C\xDC\x99\x195\xDC\xD7\xC8Fc\xD56q\xAEW\xFB\xB7\x82m\xDC
+$$$$$$ Response Body For Transaction With Id 96 Ended $$$$$$
+
+[Traffic Filtering] Filtering update.googleapis.com
+****** Request Header For Transaction With Id 100 ******
+POST /service/update2/json?cup2key=12:irVoHIbBBbOQidOTvRobg04mmlDxXCC12HgSP74rPsM&cup2hreq=4a1717a1ead4d8131727deeed056a632bd00e27a5e411513cb47b1f4814f522b HTTP/1.1
+Host: update.googleapis.com
+Connection: keep-alive
+Content-Length: 9157
+X-Goog-Update-AppId: neifaoindggfcjicffkgpmnlppeffabd,oimompecagnajdejgnnjijobebaeigek,ihnlcenocehgdaegdmhbidjhnhdchfmm,hnimpnehoodheedghdeeijklkeaacbdc,gcmjkmgdlgnkkcocmoeiminaijmmjnii,lmelglejhemejginpboagddgdfbepgmp,giekcmmlnklenlaomppkphknjmnnpneh,khaoiebndkojlmppeemjhbpbandiljpe,hfnkpimlhhgieaddgfemjhofmfblmnib,ehgidpndbllacpjalkiimkbadgjfnnmc,obedbbhbpmojnkanicioggnmelmoomoc,jflookgnkcckhobaglndicnbbgbonegd,ggkkehgbnfjpeggfpleeakpidbkibbmn,llkgjffcdpffmhiakmfcdcblohccpfmo,dhlpobdgcjafebgbbhjdnapejmpkgiie,ojhpjlocmbogdgmfpkhlaaeamibhnphh,imefjhfbkmcmebodilednhmaccmincoa,laoigpblnllgcgjnjnllmfolckpjlhki,efniojlnjndmcbiieegkicadnoecjjef,jamhcnnkihinmdlkakkaopbjbbcngflc,eeigpngbgcognadeebkilcpcaedhellh,gonpemdgkjcecdgbnaabipppbmgfggbe
+X-Goog-Update-Interactivity: bg
+X-Goog-Update-Updater: chrome-111.0.5563.147
+Content-Type: application/json
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+
+
+$$$$$$ Request Header For Transaction With Id 100 Ended $$$$$$
+
+****** Request Body For Transaction With Id 100 ******
+{"request":{"@os":"win","@updater":"chrome","acceptformat":"crx3","app":[{"appid":"neifaoindggfcjicffkgpmnlppeffabd","brand":"GGLS","cohort":"1:1299:","cohorthint":"Windows (102+, canary/dev/beta/stable)","cohortname":"Windows (102+, canary/dev/beta/stable)","enabled":true,"installdate":5876,"lang":"ru","packages":{"package":[{"fp":"1.faef821457e35b44f92e45ae9c7c4424eb39c8f8bd02562a358bd2c5542570b9"}]},"ping":{"ping_freshness":"{bb71f9a2-f811-413b-abf2-3402fcc11b68}","rd":5942},"updatecheck":{},"version":"1.0.2512.0"},{"appid":"oimompecagnajdejgnnjijobebaeigek","brand":"GGLS","cohort":"1:1bk9:","cohorthint":"4.10.2557.0 for Chrome 95+","cohortname":"4.10.2557.0 for Chrome 95+","enabled":true,"installdate":5876,"lang":"ru","ping":{"ping_freshness":"{250a83ca-4e0c-4dd8-bdab-8d894c0208b6}","rd":5942},"updatecheck":{},"version":"4.10.2557.0"},{"appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","brand":"GGLS","cohort":"1:15j3:","cohorthint":"Win (Including up-to-date)","cohortname":"Win (Including up-to-date)","enabled":t
+$$$$$$ Request Body For Transaction With Id 100 Ended $$$$$$
+
+****** Response Header For Transaction With Id 100 ******
+HTTP/1.1 200 OK
+Content-Security-Policy: script-src 'report-sample' 'nonce-KvydBr6hyDaC8MBNjIF0SQ' 'unsafe-inline' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri https://csp.withgoogle.com/csp/clientupdate-aus/1
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sun, 09 Apr 2023 17:46:15 GMT
+X-Cup-Server-Proof: 3046022100999a86e0acd2198d50767119930bf6e9cee0a965a0b7729fb38d34616f48d1f902210083da3f1cada92de014d9557d339ca909fd2aacee6ea88f2a5ff656497c07abe2:4a1717a1ead4d8131727deeed056a632bd00e27a5e411513cb47b1f4814f522b
+ETag: W/"3046022100999a86e0acd2198d50767119930bf6e9cee0a965a0b7729fb38d34616f48d1f902210083da3f1cada92de014d9557d339ca909fd2aacee6ea88f2a5ff656497c07abe2:4a1717a1ead4d8131727deeed056a632bd00e27a5e411513cb47b1f4814f522b"
+Content-Type: application/json; charset=utf-8
+X-Daynum: 5942
+X-Daystart: 38775
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Content-Length: 1026
+Server: GSE
+
+
+$$$$$$ Response Header For Transaction With Id 100 Ended $$$$$$
+
+****** Response Body For Transaction With Id 100 ******
+)]}'
+{"response":{"server":"prod","protocol":"3.1","daystart":{"elapsed_seconds":38775,"elapsed_days":5942},"app":[{"cohorthint":"Windows (102+, canary/dev/beta/stable)","appid":"neifaoindggfcjicffkgpmnlppeffabd","cohort":"1:1299:","status":"ok","cohortname":"Windows (102+, canary/dev/beta/stable)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"4.10.2557.0 for Chrome 95+","appid":"oimompecagnajdejgnnjijobebaeigek","cohort":"1:1bk9:","status":"ok","cohortname":"4.10.2557.0 for Chrome 95+","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Win (Including up-to-date)","appid":"ihnlcenocehgdaegdmhbidjhnhdchfmm","cohort":"1:15j3:","status":"ok","cohortname":"Win (Including up-to-date)","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"hnimpnehoodheedghdeeijklkeaacbdc","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"M54AndUp","appid":"gcmjkmgdlgnkkcocmoeiminaijmmjnii","cohort":"1:bm1:","status":"ok","cohortname":"M54AndUp","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"lmelglejhemejginpboagddgdfbepgmp","cohort":"1:lwl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"giekcmmlnklenlaomppkphknjmnnpneh","cohort":"1:j5l:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"khaoiebndkojlmppeemjhbpbandiljpe","cohort":"1:cux:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"hfnkpimlhhgieaddgfemjhofmfblmnib","cohort":"1:jcl:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"stable64","appid":"ehgidpndbllacpjalkiimkbadgjfnnmc","cohort":"1:ofl:","status":"ok","cohortname":"stable64","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"obedbbhbpmojnkanicioggnmelmoomoc","cohort":"1:s6f:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jflookgnkcckhobaglndicnbbgbonegd","cohort":"1:s7x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"108-and-above-all-users","appid":"ggkkehgbnfjpeggfpleeakpidbkibbmn","cohort":"1:ut9/1a0f:","status":"ok","cohortname":"108-and-above-all-users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"appid":"llkgjffcdpffmhiakmfcdcblohccpfmo","cohort":"1::","status":"ok","cohortname":"","ping":{"status":"ok"},"updatecheck":{"_esbAllowlist":"true","status":"noupdate"}},{"cohorthint":"Auto","appid":"dhlpobdgcjafebgbbhjdnapejmpkgiie","cohort":"1:z9x:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"ojhpjlocmbogdgmfpkhlaaeamibhnphh","cohort":"1:w0x:","status":"ok","cohortname":"All users","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"desktop_1_flatbuffer","appid":"imefjhfbkmcmebodilednhmaccmincoa","cohort":"1:1iaf:","status":"ok","cohortname":"windows_flatbuffers","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"laoigpblnllgcgjnjnllmfolckpjlhki","cohort":"1:10zr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto Stage3","appid":"efniojlnjndmcbiieegkicadnoecjjef","cohort":"1:18ql:","status":"ok","cohortname":"Auto Stage3","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"jamhcnnkihinmdlkakkaopbjbbcngflc","cohort":"1:wvr:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"Auto","appid":"eeigpngbgcognadeebkilcpcaedhellh","cohort":"1:w59:","status":"ok","cohortname":"Auto","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}},{"cohorthint":"General release","appid":"gonpemdgkjcecdgbnaabipppbmgfggbe","cohort":"1:z1x:","status":"ok","cohortname":"General release","ping":{"status":"ok"},"updatecheck":{"status":"noupdate"}}]}}
+$$$$$$ Response Body For Transaction With Id 100 Ended $$$$$$
+
+****** Request Header For Transaction With Id 108 ******
+POST /cgi-bin/itinerary.pl HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+Content-Length: 731
+Cache-Control: max-age=0
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:1080
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/itinerary.pl
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&3333333333333333&expDate&12%2F23%0A
+
+
+$$$$$$ Request Header For Transaction With Id 108 Ended $$$$$$
+
+****** Request Body For Transaction With Id 108 ******
+1=on&flightID=123447436-830-JB&flightID=123453337-1546-JB&flightID=123453337-2316-JB&flightID=12344829-3106-jb&flightID=12344829-3875-jb&flightID=12347436-4676-jb&flightID=1234607-53-jb&flightID=123447047-6176-jb&flightID=123448162-6952-jb&flightID=123465955-7754-jb&flightID=123452232-8482-jb&flightID=1234744489-92401-JB&flightID=123468171-10047-JB&flightID=246928918-10830-JB&flightID=246947437-11600-JB&flightID=2469325971-123170-JB&flightID=246942986-13124-JB&removeFlights.x=44&removeFlights.y=10&.cgifields=11&.cgifields=7&.cgifields=17&.cgifields=2&.cgifields=1&.cgifields=16&.cgifields=13&.cgifields=6&.cgifields=3&.cgifields=9&.cgifields=12&.cgifields=14&.cgifields=15&.cgifields=8&.cgifields=4&.cgifields=10&.cgifields=5
+$$$$$$ Request Body For Transaction With Id 108 Ended $$$$$$
+
+****** Response Header For Transaction With Id 108 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:46:22 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sat, 08 Apr 2023 17:46:22 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 108 Ended $$$$$$
+
+****** Response Body For Transaction With Id 108 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Flights List</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}</style><BR/><BR/><h1><font color="#003366">&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquote><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">
+<center>
+<TABLE BORDER="0" WIDTH="85%" CELLSPACING="0">
+<TR bgcolor="#5E7884">
+  <TD colspan="4" align="center"><font color="white"><B>Jojo Bean
+ 's Flight Transaction Summary</B></color></TD></TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="1" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123453337-777-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 108 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 240 leaves London  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="2" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123453337-1546-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 108 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 240 leaves London  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="3" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="12344829-2337-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 386 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 10 leaves Denver  for Frankfurt.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="4" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="12344829-3106-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 386 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 10 leaves Denver  for Frankfurt.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="5" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="12347436-3907-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 792 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 80 leaves Denver  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="6" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1234607-46-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 0 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 440 leaves Paris  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="7" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123447047-5407-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 292 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 070 leaves Denver  for Seattle.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="8" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123448162-6183-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 386 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/02/2023
+ :  8am : Flight 100 leaves Frankfurt  for Denver.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="9" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123465955-6985-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 805 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 580 leaves Portland  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="10" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123452232-7712-jb"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          jojo bean
+<br/>
+          <br/>
+          <br/>
+          <br/>
+          Total Charge: $ 266 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 210 leaves London  for Frankfurt.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="11" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="1234744489-84709-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>Jojo Bean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 1219 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 810 leaves Sydney  for Frankfurt.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="12" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="123468171-9278-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>JojoBean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 622 <BR/> (CC: x-3333)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 640 leaves San Francisco  for Paris.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="13" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="246928918-10060-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>JojoBean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 792 <BR/> (CC: x-6667)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/06/2023
+ :  8am : Flight 080 leaves Denver  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="14" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="246947437-10831-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>JojoBean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 805 <BR/> (CC: x-6667)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/09/2023
+ :  8am : Flight 580 leaves Portland  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="15" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="2469325971-115478-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>JojoBean
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 1219 <BR/> (CC: x-6667)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/09/2023
+ :  8am : Flight 180 leaves Frankfurt  for Sydney.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+
+<!-- Flight #1 -->
+<TR bgcolor="#EFF2F7">
+  <TD width="5%" rowspan="2" align="left" valign="top">
+<b>
+<label><input type="checkbox" name="16" value="on" /></label></font></b>
+<input type="hidden" name="flightID" value="246942986-12355-JB"  />
+  </TD>
+  <TD width="45%" valign="top">
+      <b>&nbsp;&nbsp;A Coach class ticket for :</b><br/>
+      <center><table border="0" width="85%"><tr><td>
+      <li><i>
+      <li><i></i>
+      </td></tr></table></center>
+  </TD>
+  <TD width="5%" >.<br/>.<br/>.<br/>.</TD>
+  <TD width="45%" valign=top><b>Invoice sent to:</b><br/>
+      <center>
+      <Table width="80%" cellspacing="0" > <tr> <td>
+          Jojo Bean
+<br/>
+          Eaf<br/>
+          Denver<br/>
+          <br/>
+          Total Charge: $ 622 <BR/> (CC: x-6667)
+      </td> </tr> </table>
+      </center>
+  </TD>
+</TR>
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="3">
+  <b>Flight Details:</b><BR/>  <center>
+  04/09/2023
+ :  8am : Flight 460 leaves Paris  for San Francisco.<br>  </center>
+  </TD>
+</TR>
+
+<TR bgcolor="#EFF2F7">
+  <TD COLSPAN="4">
+  <hr/>
+  </TD>
+</TR>
+<TR>
+   <TD align="center" COLSPAN="4">
+   <b>A total of 16 scheduled flights.</font></b>
+   </TD>
+</TR>
+</TABLE>
+
+<TABLE WIDTH="87%" BORDER="0" CELLSPACING="0">
+<TR>
+<TD align="left" width="50%" >
+<input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" border="0" /></TD>
+<TD align="right" width="50%" >
+<input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gif" border="0" /></TD>
+</TABLE>
+
+<div><input type="hidden" name=".cgifields" value="11"  /><input type="hidden" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="2"  /><input type="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="16"  /><input type="hidden" name=".cgifields" value="13"  /><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidden" name=".cgifields" value="9"  /><input type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=".cgifields" value="15"  /><input type="hidden" name=".cgifields" value="8"  /><input type="hidden" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="10"  /><input type="hidden" name=".cgifields" value="5"  /></div></form>
+
+</center>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 108 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+		/cgi-bin/itinerary.pl
+		Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 108 ****** (Location Flag : tFlagInsertEnd, Location ID : 108)
+	web_submit_data("itinerary.pl",
+		"Action=http://localhost:1080/cgi-bin/itinerary.pl",
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/itinerary.pl",
+		"Snapshot=t4.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=1", "Value=on", ENDITEM,
+		"Name=flightID", "Value=123447436-830-JB", ENDITEM,
+		"Name=flightID", "Value=123453337-1546-JB", ENDITEM,
+		"Name=flightID", "Value=123453337-2316-JB", ENDITEM,
+		"Name=flightID", "Value=12344829-3106-jb", ENDITEM,
+		"Name=flightID", "Value=12344829-3875-jb", ENDITEM,
+		"Name=flightID", "Value=12347436-4676-jb", ENDITEM,
+		"Name=flightID", "Value=1234607-53-jb", ENDITEM,
+		"Name=flightID", "Value=123447047-6176-jb", ENDITEM,
+		"Name=flightID", "Value=123448162-6952-jb", ENDITEM,
+		"Name=flightID", "Value=123465955-7754-jb", ENDITEM,
+		"Name=flightID", "Value=123452232-8482-jb", ENDITEM,
+		"Name=flightID", "Value=1234744489-92401-JB", ENDITEM,
+		"Name=flightID", "Value=123468171-10047-JB", ENDITEM,
+		"Name=flightID", "Value=246928918-10830-JB", ENDITEM,
+		"Name=flightID", "Value=246947437-11600-JB", ENDITEM,
+		"Name=flightID", "Value=2469325971-123170-JB", ENDITEM,
+		"Name=flightID", "Value=246942986-13124-JB", ENDITEM,
+		"Name=removeFlights.x", "Value=44", ENDITEM,
+		"Name=removeFlights.y", "Value=10", ENDITEM,
+		"Name=.cgifields", "Value=11", ENDITEM,
+		"Name=.cgifields", "Value=7", ENDITEM,
+		"Name=.cgifields", "Value=17", ENDITEM,
+		"Name=.cgifields", "Value=2", ENDITEM,
+		"Name=.cgifields", "Value=1", ENDITEM,
+		"Name=.cgifields", "Value=16", ENDITEM,
+		"Name=.cgifields", "Value=13", ENDITEM,
+		"Name=.cgifields", "Value=6", ENDITEM,
+		"Name=.cgifields", "Value=3", ENDITEM,
+		"Name=.cgifields", "Value=9", ENDITEM,
+		"Name=.cgifields", "Value=12", ENDITEM,
+		"Name=.cgifields", "Value=14", ENDITEM,
+		"Name=.cgifields", "Value=15", ENDITEM,
+		"Name=.cgifields", "Value=8", ENDITEM,
+		"Name=.cgifields", "Value=4", ENDITEM,
+		"Name=.cgifields", "Value=10", ENDITEM,
+		"Name=.cgifields", "Value=5", ENDITEM,
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 108 Ended $$$$$$
+
+****** Request Header For Transaction With Id 113 ******
+GET /cgi-bin/welcome.pl?signOff=1 HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062328; MTUserInfo=firstName&Jojo&address2&&username&jojo&hash&47&lastName&Bean%0A&address1&&creditCard&3333333333333333&expDate&12%2F23%0A
+
+
+$$$$$$ Request Header For Transaction With Id 113 Ended $$$$$$
+
+****** Response Header For Transaction With Id 113 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:46:29 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1681062389; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Sat, 08-Apr-2023 17:46:29 GMT
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 113 Ended $$$$$$
+
+****** Response Body For Transaction With Id 113 ******
+<!-- 
+ A Session ID has been created and loaded into a cookie called MSO.
+ Also, the server options have been loaded into the cookie called
+ MSO as well.  The server options can be set via the Admin page.
+ --->
+
+<html>
+<title>Web Tours</title>
+   <!-- Frame Set -->
+   <frameset cols="160,*" border="1" frameborder="1">
+      <!-- Navigation Frame -->
+      <frame src="nav.pl?in=home" name="navbar" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+      <!-- Home Frame -->
+      <frame src="/WebTours/home.html" name="info" marginheight="2" marginwidth="2" 
+            noresize="noresize" scrolling="auto"/>
+   </frameset>
+</html>
+
+</body>
+</html>
+$$$$$$ Response Body For Transaction With Id 113 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?page=itinerary
+		/cgi-bin/nav.pl?page=menu&in=itinerary
+		/cgi-bin/itinerary.pl
+		Form: name= action=itinerary.pl
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+
+****** Add Event For Transaction With Id 113 ****** (Location Flag : tFlagInsertEnd, Location ID : 113)
+	web_url("SignOff Button",
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1",
+		"TargetFrame=body",
+		"Resource=0",
+		"RecContentType=text/html",
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary",
+		"Snapshot=t5.inf",
+		"Mode=HTML",
+		LAST);
+
+
+$$$$$$ Add Event For Transaction With Id 113 Ended $$$$$$
+
+****** Add Event For Transaction With Id 0 ****** (Location Flag : tFlagInsertBefore, Location ID : 108)
+	web_add_header("Origin",
+		"http://localhost:1080");
+
+
+$$$$$$ Add Event For Transaction With Id 0 Ended $$$$$$
+
+****** Request Header For Transaction With Id 116 ******
+GET /cgi-bin/nav.pl?in=home HTTP/1.1
+Host: localhost:1080
+Connection: keep-alive
+sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Referer: http://localhost:1080/cgi-bin/welcome.pl?signOff=1
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: MSO=SID&1681062389
+
+
+$$$$$$ Request Header For Transaction With Id 116 Ended $$$$$$
+
+****** Response Header For Transaction With Id 116 ******
+HTTP/1.1 200 OK
+Date: Sun, 09 Apr 2023 17:46:29 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Sat, 08 Apr 2023 17:46:30 GMT
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
+
+$$$$$$ Response Header For Transaction With Id 116 Ended $$$$$$
+
+****** Response Body For Transaction With Id 116 ******
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<head>
+<title>Web Tours Navigation Bar</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+</head>
+<body bgcolor="#E0E7F1">
+<style>
+blockquote {font-family: tahoma; font-size : 10pt}
+H1 {font-family: tahoma; font-size : 22pt; color: #993333}
+H3 {font-family: tahoma; font-size : 10pt; color: black}
+small {font-family: tahoma; font-size : 8pt}
+</style>
+<form method="post" action="/cgi-bin/login.pl" target="body">
+<input type="hidden" name="userSession" value="136173.543053868HAAttczpzcAiDDDDtcAczpffQHcf"/>
+<table border="0"><tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Username</small></td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="text" name="username" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td><small>&nbsp;Password</small></td>
+<tr><td>&nbsp;</td>
+<td><input type="password" name="password" value="" size="14" maxlength="14"/></td></tr>
+<tr><td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+<tr><td>&nbsp;</td>
+<td><input type="image" name="login" value="Login" alt="Login" border="1" 
+src="/WebTours/images/mer_login.gif"/></td></tr>
+<tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><input type="hidden" name="JSFormSubmit" value="off"/>
+</form>
+
+</body>
+</html>
+
+$$$$$$ Response Body For Transaction With Id 116 Ended $$$$$$
+
+****** Start Log Message ******
+
+Start Frames Hierarchy Tree Dump
+The Node has no URL
+	/cgi-bin/welcome.pl?signOff=true
+		/cgi-bin/nav.pl?in=home
+		Form: name= action=/cgi-bin/login.pl
+	/cgi-bin/welcome.pl?signOff=1
+End Frames Hierarchy Tree Dump
+
+$$$$$$ End Log Message $$$$$$
+

@@ -1,0 +1,8 @@
+"1=on&flightID=123447436-830-JB&flightID=123453337-1546-JB&flightID=123453337-2316-JB&flightID="
+"12344829-3106-jb&flightID=12344829-3875-jb&flightID=12347436-4676-jb&flightID=1234607-53-jb&fl"
+"ightID=123447047-6176-jb&flightID=123448162-6952-jb&flightID=123465955-7754-jb&flightID=123452"
+"232-8482-jb&flightID=1234744489-92401-JB&flightID=123468171-10047-JB&flightID=246928918-10830-"
+"JB&flightID=246947437-11600-JB&flightID=2469325971-123170-JB&flightID=246942986-13124-JB&remov"
+"eFlights.x=44&removeFlights.y=10&.cgifields=11&.cgifields=7&.cgifields=17&.cgifields=2&.cgifie"
+"lds=1&.cgifields=16&.cgifields=13&.cgifields=6&.cgifields=3&.cgifields=9&.cgifields=12&.cgifie"
+"lds=14&.cgifields=15&.cgifields=8&.cgifields=4&.cgifields=10&.cgifields=5"

@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Apr 2023 16:11:31 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: Fri, 14 Apr 2023 16:11:31 GMT
+Set-Cookie: MTUserInfo=firstName&Burat&username&buratinko&address2&Durakoff%20Land&hash&15&expDate&12%2F25&creditCard&8989897777&address1&Theater%20Lightning&lastName&Che%20Buratov%0A; path=/
+Keep-Alive: timeout=5, max=92
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

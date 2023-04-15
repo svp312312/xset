@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 15 Apr 2023 16:10:36 GMT
+Server: Apache/2.2.21 (Win32)
+Set-Cookie: MSO=SID&1681575036; path=/
+Set-Cookie: MTUserInfo=; path=/; expires=Fri, 14-Apr-2023 16:10:36 GMT
+Keep-Alive: timeout=5, max=91
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+
