@@ -16,6 +16,6 @@ Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1681490704; MTUserInfo=firstName&Burat&address2&Durakoff%20Land&username&buratinko&hash&15&lastName&Che%20Buratov%0A&address1&Theater%20Lightning&creditCard&&expDate&%0A
-Content-Length: 257
+Cookie: MSO=SID&1681715113; MTUserInfo=firstName&Vasily&address2&Homeless%20Man&username&bazilio&hash&79&lastName&Kotov%0A&address1&Bum&creditCard&&expDate&%0A
+Content-Length: 252
 
