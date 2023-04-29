@@ -26,10 +26,12 @@
     <FileEntry Name="13673120944_Kyz.453.idx" Filter="1" />
     <FileEntry Name="13673120944_pB6.131.idx" Filter="1" />
     <FileEntry Name="13673120944_rgQ.231.idx" Filter="1" />
+    <FileEntry Name="13673120944_S0j.201.idx" Filter="1" />
     <FileEntry Name="13673120944_tss.549.idx" Filter="1" />
     <FileEntry Name="13673120944_tz8.897.idx" Filter="1" />
     <FileEntry Name="13673120944_U5M.5.idx" Filter="1" />
     <FileEntry Name="13673120944_UdB.53.idx" Filter="1" />
+    <FileEntry Name="13673120944_Up3.193.idx" Filter="1" />
     <FileEntry Name="13673120944_Urx.283.idx" Filter="1" />
     <FileEntry Name="13673120944_ut6.587.idx" Filter="1" />
     <FileEntry Name="13673120944_WQS.895.idx" Filter="1" />
@@ -41,6 +43,7 @@
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrva6h.207.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
     <FileEntry Name="output.bak" Filter="1" />

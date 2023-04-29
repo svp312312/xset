@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Скорость обмена с диском (байт/с) (Логический диск C:)
+DataPointLabel_1=offline_datapoint_34
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Скорость обмена с диском (байт/с) (Логический диск C:)
+GraphGroupMenuTitle=Windows Resources1
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Скорость обмена с диском (байт/с) - это скорость, с которой происходит обмен данными с этим диском при выполнении операций чтения или записи.

@@ -226,26 +226,45 @@ Action()
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("logout");
+	lr_start_transaction("click_itinerary");
 	
-		web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO",
-			LAST);
+		web_reg_find("Text/IC=font color\=\"white\"><B>{firstName} {lastName}\n 's Flight Transaction Summary",
+		LAST);
 	
-		web_revert_auto_header("Origin");
+		web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t4.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_end_transaction("click_itinerary", LR_AUTO);
 	
-		web_revert_auto_header("Sec-Fetch-User");
+//	lr_think_time(5);
 	
-		web_url("SignOff Button", 
-			"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-			"TargetFrame=body", 
-			"Resource=0", 
-			"RecContentType=text/html", 
-			"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-			"Snapshot=t7.inf", 
-			"Mode=HTML", 
-			LAST);
-		
-	lr_end_transaction("logout", LR_AUTO);
+//	lr_start_transaction("logout");
+//	
+//		web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO",
+//			LAST);
+//	
+//		web_revert_auto_header("Origin");
+//	
+//		web_revert_auto_header("Sec-Fetch-User");
+//	
+//		web_url("SignOff Button", 
+//			"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
+//			"TargetFrame=body", 
+//			"Resource=0", 
+//			"RecContentType=text/html", 
+//			"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
+//			"Snapshot=t7.inf", 
+//			"Mode=HTML", 
+//			LAST);
+//		
+//	lr_end_transaction("logout", LR_AUTO);
 	
 	lr_end_transaction("UC3_Buy_Ticket", LR_AUTO);
 

@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Распределений в невыгружаемом страничном пуле (Память)
+DataPointLabel_1=offline_datapoint_71
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Распределений в невыгружаемом страничном пуле (Память)
+GraphGroupMenuTitle=Windows Resources2
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Распределения в невыгружаемом страничном пуле - это запросы на выделение пространства в специальной системной области памяти, где компоненты операционной системы запрашивают место, необходимое им для функционирования. Страницы невыгружаемого страничного пула не могут быть выгружены в файл подкачки (страничный файл) на диск и остаются в оперативной памяти в течение всего периода их использования. Этот счетчик отражает текущее значение, и не является средним значением по некоторому интервалу времени.

@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Переходных многоцелевых страниц/сек (Память)
+DataPointLabel_1=offline_datapoint_78
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Переходных многоцелевых страниц/сек (Память)
+GraphGroupMenuTitle=Windows Resources2
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Переходных многоцелевых страниц - число страниц кэша перехода, которые использовались повторно с другой целью.  Эти страницы оставались в кэше страницы для быстрого использования (вместо извлечения из резервного хранилища) в случае необходимости обратиться к странице в будущем.  Такие страницы могут содержать частную или общую память.

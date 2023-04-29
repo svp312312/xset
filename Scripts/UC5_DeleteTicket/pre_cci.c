@@ -2702,10 +2702,9 @@ Action()
 		web_reg_find("Text/IC=font color\=\"white\"><B>{firstName} {lastName}\n 's Flight Transaction Summary",
 		"LAST");
 	
-		web_reg_save_param("flightIDArr",
+		web_reg_save_param("flightID",
 		"LB/IC=flightID\" value=\"",
 		"RB/IC=\"",
-		"Ord=ALL",
 		"LAST");
 	
 		web_url("Itinerary Button", 
@@ -2718,10 +2717,7 @@ Action()
 			"Mode=HTML", 
 			"LAST");
 		
-		val_flightID = lr_paramarr_random("flightIDArr");
-	
-		lr_save_string(val_flightID, "random_flightID");
-		
+			
 		
 	lr_end_transaction("click_itinerary", 2);
 	
@@ -2731,7 +2727,7 @@ Action()
 	
 
 		web_reg_find("Fail=Found",
-		"Text/IC={random_flightID}",
+		"Text/IC={flightID}",
 		"LAST");
 
 		web_add_header("Origin", 
@@ -2741,9 +2737,6 @@ Action()
 			"Snapshot=t4.inf", 
 			"ITEMDATA", 
 			"Name=1", "Value=on", "ENDITEM", 
-	 
-	 
-	 
 			"Name=removeFlights.x", "Value=44", "ENDITEM", 
 			"Name=removeFlights.y", "Value=10", "ENDITEM", 
 			"LAST");
@@ -2800,6 +2793,17 @@ Action()
  
  
 
+		
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
 	lr_end_transaction("delete_ticket", 2);
 
 	lr_think_time(5);

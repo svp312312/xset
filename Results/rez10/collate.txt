@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\svp31\Desktop\Курсы НТ\git\xset\Scenarios\Scenario1.lrs
+Completed=0

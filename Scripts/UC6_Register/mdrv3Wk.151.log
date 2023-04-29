@@ -1,0 +1,14 @@
+Start auto log messages stack - Iteration 28.	[MsgId: MMSG-10545]
+Action.c(114): Registered web_reg_find successful for "Text=Welcome, <b>oklbd</b>, to the Web Tours reservation pages." (count=1)  	[MsgId: MMSG-26364]
+Action.c(114): web_url("button_next.gif") was successful, 5895 body bytes, 1895 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(124): Notify: Transaction "click_continue" ended with a "Pass" status (Duration: 0,0939 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(126): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(128): Notify: Transaction "logout" started.	[MsgId: MMSG-16999]
+Action.c(130): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(130): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(133): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+Action.c(133): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MERR-26612]
+Action.c(133): Error -26366: "Text=A Session ID has been created and loaded into a cookie called MSO" not found for web_reg_find  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

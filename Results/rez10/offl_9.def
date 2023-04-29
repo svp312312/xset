@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Резидентных байт системного кэша (Память)
+DataPointLabel_1=offline_datapoint_9
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Резидентных байт системного кэша (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Резидентных байт системного кэша — это размер (в байтах) части кэша системных файлов, которая в настоящий момент находится в физической памяти и активна. Счетчики "Резидентных байт системного кэша" и "Память\\Байт кэш-памяти" эквивалентны. Этот счетчик отражает только текущее, а не среднее значение.

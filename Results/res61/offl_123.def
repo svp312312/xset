@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=% времени прерываний (ѕроцессор _Total)
+DataPointLabel_1=offline_datapoint_123
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=% времени прерываний (ѕроцессор _Total)
+GraphGroupMenuTitle=Windows Resources3
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1='% времени прерываний' - врем€, которое процессор тратит на получение и обслуживание аппаратных прерываний в течение интервала выборки. Ёта величина €вл€етс€ косвенным показателем активности устройств, формирующих аппаратные прерывани€, таких как системного таймера, мыши, драйверов дисков, линий передачи данных, сетевых адаптеров и других периферийных устройств. Ёти устройства обычно прерывают работу процессора при завершении своей работы или при возникновении необходимости обработки запроса. ѕри этом обычное выполнение потока команд приостанавливаетс€. —истемный таймер обычно прерывает работу процессора каждые 10 миллисекунд, создава€ 'фон' аппаратных прерываний. ѕоэтому эта величина отображает разницу между значени€ми последних двух выборок, поделенную на длительность интервала выборки.

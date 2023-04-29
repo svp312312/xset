@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=% времени C1 (Процессор _Total)
+DataPointLabel_1=offline_datapoint_7
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=% времени C1 (Процессор _Total)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1='% времени С1' - доля времени, в течение которого процессор находится в 'спящем режиме' по питанию, называемом С1. '% времени С1' - это часть общего времени простоя процессора. Это состояние позволяет процессору полностью сохранять весь контекст работы и быстро вернуться в режим полноценного функционирования. Не все компьютеры поддерживают режим С1.

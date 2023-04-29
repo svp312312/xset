@@ -1,4 +1,0 @@
-"firstName=Karabas&lastName=Barabaskin&address1=Puppet+Theater&address2=Capital+of+Kingdom&pass"
-"1=Karabas+Barabaskin&creditCard=45334454555&expDate=12%2F25&saveCC=on&oldCCOption=on&numPassen"
-"gers=1&seatType=Business&seatPref=None&outboundFlight=030%3B365%3B04%2F15%2F2023&advanceDiscou"
-"nt=0&returnFlight=&JSFormSubmit=off&buyFlights.x=42&buyFlights.y=5&.cgifields=saveCC"

@@ -1,0 +1,2 @@
+"outboundFlight=%7BoutboundFlight%7D&numPassengers=%7BnumPassengers%7D&advanceDiscount=0&seatTy"
+"pe=First&seatPref=Window&reserveFlights.x=65&reserveFlights.y=6"

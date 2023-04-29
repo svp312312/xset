@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Запись копий страниц/с (Память)
+DataPointLabel_1=offline_datapoint_55
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Запись копий страниц/с (Память)
+GraphGroupMenuTitle=Windows Resources1
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Запись копий страниц/сек - это число ошибок страницы, которые были разрешены путем создания копии страницы при попытке записи на эту страницу. Это экономичный способ совместного использования данных, поскольку копия страницы создается только при попытке записи на эту страницу, в противном случае организуется совместное использование страницы.

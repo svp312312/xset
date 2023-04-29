@@ -2753,33 +2753,33 @@ Action()
 		
 	lr_end_transaction("search_tickets", 2);
 	
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
+	lr_think_time(5);
+	
+	lr_start_transaction("choose_ticket");
+	
+		web_reg_find("Text/IC=Flight Reservation",
+			"LAST");
+	
+		web_submit_data("reservations.pl_2",
+			"Action=http://localhost:1080/cgi-bin/reservations.pl",
+			"Method=POST",
+			"TargetFrame=",
+			"RecContentType=text/html",
+			"Referer=http://localhost:1080/cgi-bin/reservations.pl",
+			"Snapshot=t5.inf",
+			"Mode=HTML",
+			"ITEMDATA",
+			"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+			"Name=numPassengers", "Value={numPassengers}", "ENDITEM",
+			"Name=advanceDiscount", "Value=0", "ENDITEM",
+			"Name=seatType", "Value={seatType}", "ENDITEM",
+			"Name=seatPref", "Value={seatPref}", "ENDITEM",
+			"Name=reserveFlights.x", "Value=65", "ENDITEM",
+			"Name=reserveFlights.y", "Value=6", "ENDITEM",
+			"LAST");
+	
+	lr_end_transaction("choose_ticket", 2);
+	
 	lr_think_time(5);
 	
 	lr_start_transaction("logout");

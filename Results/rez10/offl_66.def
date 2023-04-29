@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Байт кэш-памяти (пик) (Память)
+DataPointLabel_1=offline_datapoint_66
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Байт кэш-памяти (пик) (Память)
+GraphGroupMenuTitle=Windows Resources1
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Байт кэш-памяти (пик) — это максимальное количество байтов, использованное кэшем системных файлов с момента последнего перезапуска системы. Оно может быть больше текущего размера кэша. Этот счетчик отражает только текущее, а не среднее значение.

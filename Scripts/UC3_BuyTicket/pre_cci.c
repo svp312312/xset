@@ -2832,26 +2832,45 @@ Action()
 	
 	lr_think_time(5);
 	
-	lr_start_transaction("logout");
+	lr_start_transaction("click_itinerary");
 	
-		web_reg_find("Text=A Session ID has been created and loaded into a cookie called MSO",
-			"LAST");
+		web_reg_find("Text/IC=font color\=\"white\"><B>{firstName} {lastName}\n 's Flight Transaction Summary",
+		"LAST");
 	
-		(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
+		web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t4.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("click_itinerary", 2);
 	
-		(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+ 
 	
-		web_url("SignOff Button", 
-			"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-			"TargetFrame=body", 
-			"Resource=0", 
-			"RecContentType=text/html", 
-			"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-			"Snapshot=t7.inf", 
-			"Mode=HTML", 
-			"LAST");
-		
-	lr_end_transaction("logout", 2);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 	
 	lr_end_transaction("UC3_Buy_Ticket", 2);
 

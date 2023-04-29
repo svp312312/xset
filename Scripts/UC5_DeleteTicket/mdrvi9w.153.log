@@ -1,0 +1,48 @@
+Start auto log messages stack - Iteration 48.	[MsgId: MMSG-10545]
+Action.c(124): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(128): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(128): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(131): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(131): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(131): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(131): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(131): Error -26368: "Text=288037428-812-BC" found for web_reg_find (count=1)  	[MsgId: MERR-26368]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 64.	[MsgId: MMSG-10545]
+Action.c(124): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(128): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(128): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(131): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(131): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(131): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(131): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(131): Error -26368: "Text=1687037-7-KB" found for web_reg_find (count=1)  	[MsgId: MERR-26368]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 52.	[MsgId: MMSG-10545]
+Action.c(124): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(128): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(128): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(131): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(131): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(131): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(131): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(131): Error -26368: "Text=168746313-804-MB" found for web_reg_find (count=1)  	[MsgId: MERR-26368]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 82.	[MsgId: MMSG-10545]
+Action.c(124): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(128): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(128): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(131): web_submit_form("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(131): Submitting form to "http://localhost:1080/cgi-bin/itinerary.pl", Target Frame=""  	[MsgId: MMSG-27978]
+Action.c(131): Resource "http://localhost:1080/WebTours/images/cancelreservation.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(131): Resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(131): Error -26368: "Text=24694929-83-JB" found for web_reg_find (count=1)  	[MsgId: MERR-26368]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

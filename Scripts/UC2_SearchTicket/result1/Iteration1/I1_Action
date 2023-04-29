@@ -1,5 +1,6 @@
 [t5]
-PassCount=1
+Pass2=t6
+PassCount=2
 Pass1=t3
 [t6]
 PassCount=1
@@ -9,7 +10,7 @@ PassCount=1
 Pass1=t5
 [t8]
 PassCount=1
-Pass1=t6
+Pass1=t7
 [t4]
 PassCount=1
 Pass1=t2

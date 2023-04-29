@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Байт в резидентном страничном пуле (Память)
+DataPointLabel_1=offline_datapoint_37
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Байт в резидентном страничном пуле (Память)
+GraphGroupMenuTitle=Windows Resources1
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Резидентных байт в выгружаемом пуле — это размер (в байтах) части выгружаемого пула, которая в настоящий момент находится в физической памяти и активна. Выгружаемый пул представляет собой область виртуальной памяти системы, применяемую для объектов, которые могут быть записаны на диск, когда не используются. Этот счетчик отражает только текущее, а не среднее значение.

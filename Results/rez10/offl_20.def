@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Байт кэш-памяти (Память)
+DataPointLabel_1=offline_datapoint_20
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Байт кэш-памяти (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Байт кэш-памяти — это размер (в байтах) части кэша системных файлов, которая в настоящий момент находится в физической памяти и активна. Счетчики "Байт кэш-памяти" и "Память\\Резидентных байт системного кэша" эквивалентны. Этот счетчик отражает только текущее, а не среднее значение.

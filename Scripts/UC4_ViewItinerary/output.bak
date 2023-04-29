@@ -1,4 +1,4 @@
-Virtual User Script started at: 14.04.2023 22:55:55
+Virtual User Script started at: 21.04.2023 19:02:56
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 2021.0.0 for Windows 10; build 430 (џэт 05 2021 19:27:22)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -34,8 +34,9 @@ Action.c(44): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=hom
 Action.c(44): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(44): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(44): Registered web_reg_find successful for "Text=Welcome to the Web Tours site" (count=1)  	[MsgId: MMSG-26364]
-Action.c(44): web_url("welcome.pl") was successful, 4213 body bytes, 1182 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(54): Notify: Transaction "open_home_page" ended with a "Pass" status (Duration: 0,7640 Wasted Time: 0,0831).
+Action.c(44): web_url("welcome.pl") was successful, 4214 body bytes, 1182 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(54): Notify: Transaction "open_home_page" ended with a "Pass" status (Duration: 0.4841 Wasted Time: 0.0866).
+Action.c(56): lr_think_time: 5.00 seconds.
 Action.c(58): Notify: Transaction "enter_login" started.
 Action.c(60): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(60): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -50,9 +51,10 @@ Action.c(69): Found resource "http://localhost:1080/WebTours/images/flights.gif"
 Action.c(69): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(69): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(69): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(69): Registered web_reg_find successful for "Text=Welcome, <b>jojo</b>, to the Web Tours" (count=1)  	[MsgId: MMSG-26364]
-Action.c(69): web_submit_data("login.pl") was successful, 5779 body bytes, 2056 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(86): Notify: Transaction "enter_login" ended with a "Pass" status (Duration: 0.1894 Wasted Time: 0.0074).
+Action.c(69): Registered web_reg_find successful for "Text=Welcome, <b>buratinko</b>, to the Web Tours" (count=1)  	[MsgId: MMSG-26364]
+Action.c(69): web_submit_data("login.pl") was successful, 5784 body bytes, 2087 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(86): Notify: Transaction "enter_login" ended with a "Pass" status (Duration: 0.2335 Wasted Time: 0.0073).
+Action.c(88): lr_think_time: 5.00 seconds.
 Action.c(90): Notify: Transaction "click_itinerary" started.
 Action.c(92): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(92): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -65,10 +67,11 @@ Action.c(95): Found resource "http://localhost:1080/WebTours/images/home.gif" in
 Action.c(95): Resource "http://localhost:1080/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(95): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 Action.c(95): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(95): Registered web_reg_find successful for "Text=font color="white"><B>Jojo Bean
+Action.c(95): Registered web_reg_find successful for "Text=font color="white"><B>Burat Che Buratov
  's Flight Transaction Summary" (count=1)  	[MsgId: MMSG-26364]
-Action.c(95): web_url("Itinerary Button") was successful, 13449 body bytes, 1917 header bytes, 51 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(105): Notify: Transaction "click_itinerary" ended with a "Pass" status (Duration: 0,1902 Wasted Time: 0,0069).
+Action.c(95): web_url("Itinerary Button") was successful, 39225 body bytes, 1921 header bytes, 99 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(105): Notify: Transaction "click_itinerary" ended with a "Pass" status (Duration: 0.1862 Wasted Time: 0.0068).
+Action.c(107): lr_think_time: 5.00 seconds.
 Action.c(109): Notify: Transaction "logout" started.
 Action.c(111): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(111): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -83,9 +86,9 @@ Action.c(119): Detected non-resource "http://localhost:1080/WebTours/home.html" 
 Action.c(119): Retrieving data from cache for "http://localhost:1080/WebTours/home.html"  	[MsgId: MMSG-26558]
 Action.c(119): Resource "http://localhost:1080/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(119): Registered web_reg_find successful for "Text=A Session ID has been created and loaded into a cookie called MSO" (count=1)  	[MsgId: MMSG-26364]
-Action.c(119): web_url("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(129): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,1622 Wasted Time: 0,0046).
-Action.c(131): Notify: Transaction "UC4_View_Itinerary" ended with a "Pass" status (Duration: 1,4427 Wasted Time: 0,1021).
+Action.c(119): web_url("SignOff Button") was successful, 2167 body bytes, 584 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(129): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0.1699 Wasted Time: 0.0043).
+Action.c(131): Notify: Transaction "UC4_View_Itinerary" ended with a "Pass" status (Duration: 16.2248 Think Time: 15.0181 Wasted Time: 0.1051).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Байты основного резервного кэша (Память)
+DataPointLabel_1=offline_datapoint_4
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Байты основного резервного кэша (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Байты основного резервного кэша — это объем физической памяти в байтах, назначенной для страниц памяти основного резервного кэша. Эта память содержит кэшированные данные и код, не используемый активно процессами, системой и системным кэшем. Она может немедленно выделяться для процесса или использования системой. Если системе не хватает свободной и обнуленной памяти, то страницы памяти резервного кэша с более низким приоритетом будут использоваться раньше, чем страницы памяти резервного кэша с более высоким приоритетом.

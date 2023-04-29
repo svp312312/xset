@@ -86,7 +86,28 @@ Action()
 	lr_end_transaction("enter_login", LR_AUTO);
 
 	lr_think_time(5);
+
+	lr_start_transaction("click_flights");
 	
+		web_reg_find("Text=User has returned to the search page",
+			LAST);
+	
+		web_revert_auto_header("Sec-Fetch-User");
+	
+		web_url("Search Flights Button", 
+			"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+			"TargetFrame=body", 
+			"Resource=0", 
+			"RecContentType=text/html", 
+			"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+			"Snapshot=t3.inf", 
+			"Mode=HTML", 
+			LAST);
+		
+	lr_end_transaction("click_flights", LR_AUTO);
+	
+	lr_think_time(5);
+		
 	lr_start_transaction("click_itinerary");
 	
 		web_reg_find("Text/IC=font color\=\"white\"><B>{firstName} {lastName}\n 's Flight Transaction Summary",

@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=% времени C2 (Процессор _Total)
+DataPointLabel_1=offline_datapoint_52
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=% времени C2 (Процессор _Total)
+GraphGroupMenuTitle=Windows Resources1
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1='% времени С2' - доля времени, в течение которого процессор находится в 'спящем режиме' по питанию, называемом С2. '% времени С2' - это часть общего времени простоя процессора. Это состояние позволяет процессору сохранять контекст системного кэша. Состояние С2 - это состояние более низкого уровня питания процессора и более долгого возврата в рабочий режим, чем состояние С1. Не все компьютеры поддерживают режим С2.

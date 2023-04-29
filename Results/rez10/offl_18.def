@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Байты резервного кэша обычного приоритета (Память)
+DataPointLabel_1=offline_datapoint_18
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Байты резервного кэша обычного приоритета (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Байты резервного кэша обычного приоритета — это объем физической памяти в байтах, назначенной для страниц памяти резервного кэша обычного приоритета. Эта память содержит кэшированные данные и код, не используемый активно процессами, системой и системным кэшем. Она может немедленно выделяться для процесса или использования системой. Если системе не хватает свободной и обнуленной памяти, то страницы памяти резервного кэша с более низким приоритетом будут использоваться раньше, чем страницы памяти резервного кэша с более высоким приоритетом.

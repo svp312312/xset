@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Операций вывода страниц/с (Память)
+DataPointLabel_1=offline_datapoint_13
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Операций вывода страниц/с (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Операций вывода страниц/сек - это счетчик записи страниц на диск, выполняемой для освобождения места в оперативной памяти. Страницы записываются на диск только в том случае, если они были изменены в оперативной памяти, поэтому они вероятнее всего содержат данные, а не программный код.  Этот счетчик отображает число операций записи, без учета числа страниц, записываемых при каждой операции.  Этот счетчик показывает разницу значений между двумя последними снятиями показаний, деленную на длительность интервала измерения.

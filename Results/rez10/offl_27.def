@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Ошибок кэш-памяти/с (Память)
+DataPointLabel_1=offline_datapoint_27
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Ошибок кэш-памяти/с (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Ошибки кэш-памяти происходят случае, если диспетчер кэш-памяти не находит страницу файла в непосредственной кэш-памяти и должен запросить у диспетчера памяти местонахождение страницы в другом месте оперативной памяти или на диске для того, чтобы можно было загрузить эту страницу в непосредственную кэш-память.

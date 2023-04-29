@@ -1,8 +1,8 @@
 HTTP/1.1 200 OK
-Date: Sat, 15 Apr 2023 16:10:11 GMT
+Date: Sun, 23 Apr 2023 13:09:08 GMT
 Server: Apache/2.2.21 (Win32)
 Expires: 5s
-Set-Cookie: MTUserInfo=firstName&Jojo&address2&Denver&username&jojo&hash&47&lastName&Bean%0A&address1&Eaf&creditCard&5678&expDate&12%2F23%0A; path=/
+Set-Cookie: MTUserInfo=firstName&Charles%20III&address2&Tarabar%20Kingdom&username&karlo&hash&111&lastName&Windsor%0A&address1&Kamorka&creditCard&&expDate&%0A; path=/
 Keep-Alive: timeout=5, max=98
 Connection: Keep-Alive
 Transfer-Encoding: chunked

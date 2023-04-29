@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=„тений страниц/с (ѕам€ть)
+DataPointLabel_1=offline_datapoint_127
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=„тений страниц/с (ѕам€ть)
+GraphGroupMenuTitle=Windows Resources3
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=„тение страниц/сек - это число операций чтени€ диска при получении страниц виртуальной пам€ти дл€ разрешени€ ошибок страницы. ѕри выполнении одной операции чтени€ могут быть получены одновременно несколько страниц. ќшибка чтени€ страницы возникает при обращении процесса к виртуальной пам€ти, не принадлежащей рабочему множеству или физической пам€ти, и должна быть извлечена с диска. Ётот счетчик €вл€етс€ первым индикатором ошибок, €вл€ющихс€ причиной системных задержек. —равнивает значени€ отношений пам€ть\\страниц, прочитанных в сек, и пам€ть\\страниц, введенных в сек.

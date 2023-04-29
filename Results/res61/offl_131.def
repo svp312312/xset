@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Резидентных байт системного кода (Память)
+DataPointLabel_1=offline_datapoint_131
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Резидентных байт системного кода (Память)
+GraphGroupMenuTitle=Windows Resources3
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Резидентных байт системного кода — это размер (в байтах) выгружаемого кода операционной системы, который в настоящий момент находится в физической памяти и активен. Это значение входит в счетчик "Память\\Всего байт системного кода". Счетчик "Память\\Резидентных байт системного кода" (и "Память\\Всего байт системного кода") не включают код, который должен оставаться в физической памяти и не может быть записан на диск. Этот счетчик отражает только текущее, а не среднее значение.

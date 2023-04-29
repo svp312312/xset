@@ -1,4 +1,0 @@
-"firstName=Malvina&lastName=Barabasova&address1=Meadow&address2=Forest&pass1=Malvina+Barabasova"
-"&creditCard=13454324556&expDate=11%2F24&saveCC=on&oldCCOption=on&numPassengers=1&seatType=Coac"
-"h&seatPref=Aisle&outboundFlight=710%3B510%3B04%2F15%2F2023&advanceDiscount=0&returnFlight=&JSF"
-"ormSubmit=off&buyFlights.x=42&buyFlights.y=5&.cgifields=saveCC"

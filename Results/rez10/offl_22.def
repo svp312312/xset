@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Байт в выгружаемом страничном пуле (Память)
+DataPointLabel_1=offline_datapoint_22
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Байт в выгружаемом страничном пуле (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Байт в выгружаемом пуле — это размер (в байтах) выгружаемого пула. Выгружаемый пул представляет собой область виртуальной памяти системы, применяемую для объектов, которые могут быть записаны на диск, когда не используются. Счетчик "Память\\Байт в выгружаемом пуле" вычисляется не так, как "Процесс\\Байт в выгружаемом пуле", поэтому он может быть не равен значению "Процесс(_Total)\\Байт в выгружаемом пуле\\". Этот счетчик отражает только текущее, а не среднее значение.
