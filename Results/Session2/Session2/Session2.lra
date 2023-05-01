@@ -34,13 +34,13 @@ MonAgg=0
 ErrAgg=0
 FilterEdge=0
 FSartTime=0
-FEndTime=84600
+FEndTime=0
 
 [Result0]
 LRRID=
 ResultPath=C:\Users\svp31\Desktop\kurs nt\git\xset\Results\res61\res61.lrr
 ResultTDPath=
-NumFilters=0
+NumFilters=1
 ScenarioTimeZone=-18000
 DaylightSavingSecsAddition=0
 ScenarioStartTime=1682746065
@@ -59,7 +59,18 @@ Schedule Name=Schedule 1
 Mode=Scenario Scheduling
 Load Behavior=Initialize each Vuser just before it runs
 Scenario Duration=Start 10 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Start 10 Vusers: 1 every 00:00:15 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers simultaneously
-NumGraphs=9
+NumGraphs=13
+
+[Result0_GLOBALFILTER0]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=4560.000000
+Dim_1=5760.000000
 
 [DimensionFunctions]
 DimeFuncCount=1

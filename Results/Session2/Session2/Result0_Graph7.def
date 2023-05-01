@@ -29,7 +29,7 @@ ActionClearFilterEnabled=1
 ChartFile=C:\Users\svp31\Desktop\kurs nt\git\xset\Results\Session2\Session2\Result0_Graph7.cfg
 View3D=0
 IntLegendVisible=0
-Chart3dPercent=10
+Chart3dPercent=1
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=0
 RoundBarValues=0
 GraphDataCol1=
-TableName=T177479275T
+TableName=T335218314T
 BasicTableName=BasicTransactionPercentile
 AbsoluteTime=0
 DisableFilter=0
@@ -56,7 +56,7 @@ StdMonitor=0
 Percentile=1
 HiddenFunctions=
 NumBasicFilters=1
-NumAdditionalFilters=1
+NumAdditionalFilters=2
 NumRawDataFilters=0
 HiddenDimensions=
 BasicGroupBy=Transaction Name
@@ -105,6 +105,17 @@ UseEscapeSequence=1
 DimCount=1
 Dim_0=Pass
 LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=4560.000000
+Dim_1=5760.000000
 
 [DimensionFunctions]
 DimeFuncCount=1
