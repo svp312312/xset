@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Ошибок запроса обнуления/с (Память)
+DataPointLabel_1=offline_datapoint_25
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Ошибок запроса обнуления/с (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Ошибки запроса обнуления - это ошибки страницы (Page faults), для разрешения которых требуется обнуленная страница. Обнуленная страница - это страница, освобожденная от ранее хранившихся данных и заполненная нулями, для поддержки безопасности Windows. Таким образом процесс не может увидеть данные, хранившиеся ранее на этой странице другими процессами. Windows ведет список обнуленных страниц для ускорения процесса предоставления обнуленных страниц. Данный счетчик отображает число ошибок страницы, не учитывая количества страниц , полученных для разрешения ошибок страницы.

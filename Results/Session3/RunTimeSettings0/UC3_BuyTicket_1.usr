@@ -54,7 +54,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="UC3_Buy_Ticket__*delimiter*__open_home_page__*delimiter*__enter_login__*delimiter*__click_flights__*delimiter*__search_tickets__*delimiter*__choose_ticket__*delimiter*__payment__*delimiter*__click_itinerary"
 [StateManagement]
-LastReplayStatus=1
+LastReplayStatus=3
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

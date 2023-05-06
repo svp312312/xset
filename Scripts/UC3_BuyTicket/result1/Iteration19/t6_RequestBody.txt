@@ -1,0 +1,3 @@
+"advanceDiscount=0&depart=Denver&departDate=05%2F02%2F2023&arrive=Denver&returnDate=05%2F07%2F2"
+"023&numPassengers=1&seatPref=None&seatType=Business&findFlights.x=44&findFlights.y=5&.cgifield"
+"s=roundtrip&.cgifields=seatType&.cgifields=seatPref"

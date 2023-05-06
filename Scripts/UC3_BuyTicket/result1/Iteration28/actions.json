@@ -1,0 +1,107 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP190",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1683036229109
+            },
+            {
+                "stepId": "STEP191",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1683036234403
+            },
+            {
+                "stepId": "STEP192",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1683036239669
+            },
+            {
+                "stepId": "STEP193",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1683036244932
+            },
+            {
+                "stepId": "STEP194",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1683036250135
+            },
+            {
+                "stepId": "STEP195",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1683036255343
+            },
+            {
+                "stepId": "STEP196",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t9.inf",
+                "time": 1683036260670
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_home_page",
+                "rawStartTime": 1683036228509,
+                "rawEndTime": 1683036229126,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06532120704650879
+            },
+            {
+                "transactionName": "enter_login",
+                "rawStartTime": 1683036234160,
+                "rawEndTime": 1683036234414,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06840634346008301
+            },
+            {
+                "transactionName": "click_flights",
+                "rawStartTime": 1683036239448,
+                "rawEndTime": 1683036239686,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06527447700500488
+            },
+            {
+                "transactionName": "search_tickets",
+                "rawStartTime": 1683036244726,
+                "rawEndTime": 1683036244941,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06514835357666016
+            },
+            {
+                "transactionName": "choose_ticket",
+                "rawStartTime": 1683036249976,
+                "rawEndTime": 1683036250144,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06027674674987793
+            },
+            {
+                "transactionName": "payment",
+                "rawStartTime": 1683036255183,
+                "rawEndTime": 1683036255353,
+                "thinkTime": 0.0,
+                "wastedTime": 0.06086397171020508
+            },
+            {
+                "transactionName": "click_itinerary",
+                "rawStartTime": 1683036260394,
+                "rawEndTime": 1683036260678,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09492135047912598
+            },
+            {
+                "transactionName": "UC3_Buy_Ticket",
+                "rawStartTime": 1683036228478,
+                "rawEndTime": 1683036260694,
+                "thinkTime": 30.032775,
+                "wastedTime": 0.4802124500274658
+            }
+        ]
+    }
+]

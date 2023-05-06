@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Предел выделенной виртуальной памяти (Память)
+DataPointLabel_1=offline_datapoint_21
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Предел выделенной виртуальной памяти (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Предел выделенной виртуальной памяти - это размер (в байтах) виртуальной памяти, которая может быть выделена без увеличения файла (или файлов) подкачки. Если файл или файлы подкачки могут быть увеличены, то этот предел является изменяемой величиной. Этот счетчик отражает текущее значение, и не является средним значением по некоторому интервалу времени.

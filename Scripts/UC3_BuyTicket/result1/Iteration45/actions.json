@@ -1,0 +1,29 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP309",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1683036780889
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_home_page",
+                "rawStartTime": 1683036780137,
+                "rawEndTime": 1683036780900,
+                "thinkTime": 0.0,
+                "wastedTime": 0.14046478271484376
+            },
+            {
+                "transactionName": "UC3_Buy_Ticket",
+                "rawStartTime": 1683036780103,
+                "rawEndTime": 1683036781059,
+                "thinkTime": 0.0,
+                "wastedTime": 0.14046478271484376
+            }
+        ]
+    }
+]

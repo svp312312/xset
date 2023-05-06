@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\svp31\Documents\VuGen\Scripts\UC3_BuyTicket
+-IC:\Users\svp31\Desktop\kurs nt\git\xset\Scripts\UC3_BuyTicket
 -IC:\Program Files (x86)\Micro Focus\LoadRunner\include
--ec:\users\svp31\documents\vugen\scripts\uc3_buyticket\\logfile.log
-c:\users\svp31\documents\vugen\scripts\uc3_buyticket\\combined_UC3_BuyTicket.c
-c:\users\svp31\documents\vugen\scripts\uc3_buyticket\\pre_cci.c
+-ec:\users\svp31\desktop\kurs nt\git\xset\scripts\uc3_buyticket\\logfile.log
+c:\users\svp31\desktop\kurs nt\git\xset\scripts\uc3_buyticket\\combined_UC3_BuyTicket.c
+c:\users\svp31\desktop\kurs nt\git\xset\scripts\uc3_buyticket\\pre_cci.c

@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Байт в невыгружаемом страничном пуле (Память)
+DataPointLabel_1=offline_datapoint_41
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Байт в невыгружаемом страничном пуле (Память)
+GraphGroupMenuTitle=Windows Resources1
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Байт в невыгружаемом пуле — это размер (в байтах) невыгружаемого пула. Невыгружаемый пул представляет собой область виртуальной памяти системы, применяемую для объектов, которые не могут быть записаны на диск и должны оставаться в физической памяти на все время своего существования. Счетчик "Память\\Байт в невыгружаемом пуле" вычисляется не так, как "Процесс\\Байт в невыгружаемом пуле", поэтому он может быть не равен значению "Процесс(_Total)\\Байт в невыгружаемом пуле\\". Этот счетчик отражает только текущее, а не среднее значение.

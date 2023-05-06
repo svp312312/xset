@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Среднее время обращения к диску (с) (Логический диск _Total)
+DataPointLabel_1=offline_datapoint_0
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Среднее время обращения к диску (с) (Логический диск _Total)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Среднее время обращения к диску - это время в секундах, затрачиваемое в среднем на один обмен данными с диском.
