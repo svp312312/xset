@@ -1,0 +1,138 @@
+28 11 1684773562 2 188794416 1823203413 1699596
+28 4 UC3_BuyTicket_1 1 1684773564 0 UC3_BuyTicket_1 localhost 0 1
+28 10 localhost 28 0 0
+28 0 UC3_BuyTicket_1 1 1684773564 0 localhost 0
+28 8 UC3_BuyTicket_1 1  0 0
+28 2 UC3_BuyTicket_1 1 1684773564 0 p 0 0
+28 4 UC2_SearchTicket_1 1 1684773577 0 UC2_SearchTicket_1 localhost 0 1
+28 0 UC2_SearchTicket_1 1 1684773577 0 localhost 0
+28 8 UC2_SearchTicket_1 1  0 0
+28 2 UC2_SearchTicket_1 1 1684773577 0 p 0 0
+28 4 UC1_login_1 1 1684773592 0 UC1_login_1 localhost 0 1
+28 0 UC1_login_1 1 1684773592 0 localhost 0
+28 8 UC1_login_1 1  0 0
+28 2 UC1_login_1 1 1684773592 0 p 0 0
+28 4 UC3_BuyTicket_1 2 1684773607 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 2 1684773607 0 localhost 0
+28 8 UC3_BuyTicket_1 2  0 0
+28 2 UC3_BuyTicket_1 2 1684773607 0 p 0 0
+28 4 UC4_ViewItinerary_1 1 1684773622 0 UC4_ViewItinerary_1 localhost 0 1
+28 0 UC4_ViewItinerary_1 1 1684773622 0 localhost 0
+28 8 UC4_ViewItinerary_1 1  0 0
+28 2 UC4_ViewItinerary_1 1 1684773622 0 p 0 0
+28 4 UC6_Register 1 1684773637 0 UC6_Register localhost 0 1
+28 0 UC6_Register 1 1684773637 0 localhost 0
+28 8 UC6_Register 1  0 0
+28 2 UC6_Register 1 1684773637 0 p 0 0
+28 4 UC3_BuyTicket_1 3 1684773652 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 3 1684773652 0 localhost 0
+28 8 UC3_BuyTicket_1 3  0 0
+28 2 UC3_BuyTicket_1 3 1684773652 0 p 0 0
+28 4 UC2_SearchTicket_1 2 1684773667 0 UC2_SearchTicket_1 localhost 0 1
+28 0 UC2_SearchTicket_1 2 1684773667 0 localhost 0
+28 8 UC2_SearchTicket_1 2  0 0
+28 2 UC2_SearchTicket_1 2 1684773667 0 p 0 0
+28 4 UC5_DeleteTicket_1 1 1684773682 0 UC5_DeleteTicket_1 localhost 0 1
+28 0 UC5_DeleteTicket_1 1 1684773682 0 localhost 0
+28 8 UC5_DeleteTicket_1 1  0 0
+28 2 UC5_DeleteTicket_1 1 1684773682 0 p 0 0
+28 4 UC3_BuyTicket_1 4 1684773697 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 4 1684773697 0 localhost 0
+28 8 UC3_BuyTicket_1 4  0 0
+28 2 UC3_BuyTicket_1 4 1684773697 0 p 0 0
+28 4 UC3_BuyTicket_1 5 1684773712 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 5 1684773712 0 localhost 0
+28 8 UC3_BuyTicket_1 5  0 0
+28 2 UC3_BuyTicket_1 5 1684773712 0 p 0 0
+28 4 UC2_SearchTicket_1 3 1684773727 0 UC2_SearchTicket_1 localhost 0 1
+28 0 UC2_SearchTicket_1 3 1684773727 0 localhost 0
+28 8 UC2_SearchTicket_1 3  0 0
+28 2 UC2_SearchTicket_1 3 1684773727 0 p 0 0
+28 4 UC4_ViewItinerary_1 2 1684773742 0 UC4_ViewItinerary_1 localhost 0 1
+28 0 UC4_ViewItinerary_1 2 1684773742 0 localhost 0
+28 8 UC4_ViewItinerary_1 2  0 0
+28 2 UC4_ViewItinerary_1 2 1684773742 0 p 0 0
+28 4 UC3_BuyTicket_1 6 1684773757 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 6 1684773757 0 localhost 0
+28 8 UC3_BuyTicket_1 6  0 0
+28 2 UC3_BuyTicket_1 6 1684773757 0 p 0 0
+28 4 UC1_login_1 2 1684773772 0 UC1_login_1 localhost 0 1
+28 0 UC1_login_1 2 1684773772 0 localhost 0
+28 8 UC1_login_1 2  0 0
+28 2 UC1_login_1 2 1684773772 0 p 0 0
+28 4 UC2_SearchTicket_1 4 1684773787 0 UC2_SearchTicket_1 localhost 0 1
+28 0 UC2_SearchTicket_1 4 1684773787 0 localhost 0
+28 8 UC2_SearchTicket_1 4  0 0
+28 2 UC2_SearchTicket_1 4 1684773787 0 p 0 0
+28 4 UC3_BuyTicket_1 7 1684773802 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 7 1684773802 0 localhost 0
+28 8 UC3_BuyTicket_1 7  0 0
+28 2 UC3_BuyTicket_1 7 1684773802 0 p 0 0
+28 4 UC6_Register 2 1684773817 0 UC6_Register localhost 0 1
+28 0 UC6_Register 2 1684773817 0 localhost 0
+28 8 UC6_Register 2  0 0
+28 2 UC6_Register 2 1684773817 0 p 0 0
+28 4 UC3_BuyTicket_1 8 1684773832 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 8 1684773832 0 localhost 0
+28 8 UC3_BuyTicket_1 8  0 0
+28 2 UC3_BuyTicket_1 8 1684773832 0 p 0 0
+28 4 UC5_DeleteTicket_1 2 1684773847 0 UC5_DeleteTicket_1 localhost 0 1
+28 0 UC5_DeleteTicket_1 2 1684773847 0 localhost 0
+28 8 UC5_DeleteTicket_1 2  0 0
+28 2 UC5_DeleteTicket_1 2 1684773847 0 p 0 0
+28 4 UC2_SearchTicket_1 5 1684773863 0 UC2_SearchTicket_1 localhost 0 1
+28 0 UC2_SearchTicket_1 5 1684773863 0 localhost 0
+28 8 UC2_SearchTicket_1 5  0 0
+28 2 UC2_SearchTicket_1 5 1684773863 0 p 0 0
+28 4 UC3_BuyTicket_1 9 1684773878 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 9 1684773878 0 localhost 0
+28 8 UC3_BuyTicket_1 9  0 0
+28 2 UC3_BuyTicket_1 9 1684773878 0 p 0 0
+28 4 UC4_ViewItinerary_1 3 1684773893 0 UC4_ViewItinerary_1 localhost 0 1
+28 0 UC4_ViewItinerary_1 3 1684773893 0 localhost 0
+28 8 UC4_ViewItinerary_1 3  0 0
+28 2 UC4_ViewItinerary_1 3 1684773893 0 p 0 0
+28 4 UC3_BuyTicket_1 10 1684773908 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 10 1684773908 0 localhost 0
+28 8 UC3_BuyTicket_1 10  0 0
+28 2 UC3_BuyTicket_1 10 1684773908 0 p 0 0
+28 4 UC1_login_1 3 1684773923 0 UC1_login_1 localhost 0 1
+28 0 UC1_login_1 3 1684773923 0 localhost 0
+28 8 UC1_login_1 3  0 0
+28 2 UC1_login_1 3 1684773923 0 p 0 0
+28 4 UC2_SearchTicket_1 6 1684773938 0 UC2_SearchTicket_1 localhost 0 1
+28 0 UC2_SearchTicket_1 6 1684773938 0 localhost 0
+28 8 UC2_SearchTicket_1 6  0 0
+28 2 UC2_SearchTicket_1 6 1684773938 0 p 0 0
+28 4 UC3_BuyTicket_1 11 1684773953 0 UC3_BuyTicket_1 localhost 0 1
+28 0 UC3_BuyTicket_1 11 1684773953 0 localhost 0
+28 8 UC3_BuyTicket_1 11  0 0
+28 2 UC3_BuyTicket_1 11 1684773953 0 p 0 0
+28 1 UC1_login_1 3 1684777673 0 2
+28 1 UC3_BuyTicket_1 4 1684777673 0 2
+28 1 UC1_login_1 2 1684777673 0 2
+28 1 UC4_ViewItinerary_1 1 1684777673 0 2
+28 1 UC5_DeleteTicket_1 2 1684777673 0 2
+28 1 UC4_ViewItinerary_1 3 1684777673 0 2
+28 1 UC3_BuyTicket_1 8 1684777673 0 2
+28 1 UC3_BuyTicket_1 6 1684777673 0 2
+28 1 UC5_DeleteTicket_1 1 1684777673 0 2
+28 1 UC3_BuyTicket_1 10 1684777673 0 2
+28 1 UC2_SearchTicket_1 2 1684777673 0 2
+28 1 UC3_BuyTicket_1 2 1684777673 0 2
+28 1 UC3_BuyTicket_1 11 1684777674 0 2
+28 1 UC4_ViewItinerary_1 2 1684777676 0 2
+28 1 UC3_BuyTicket_1 5 1684777679 0 2
+28 1 UC3_BuyTicket_1 9 1684777681 0 2
+28 1 UC2_SearchTicket_1 4 1684777682 0 2
+28 1 UC1_login_1 1 1684777683 0 2
+28 1 UC2_SearchTicket_1 5 1684777684 0 2
+28 1 UC2_SearchTicket_1 6 1684777687 0 2
+28 1 UC6_Register 2 1684777687 0 2
+28 1 UC3_BuyTicket_1 7 1684777687 0 2
+28 1 UC2_SearchTicket_1 1 1684777691 0 2
+28 1 UC6_Register 1 1684777692 0 2
+28 1 UC3_BuyTicket_1 1 1684777695 0 2
+28 1 UC2_SearchTicket_1 3 1684777695 0 2
+28 1 UC3_BuyTicket_1 3 1684777701 0 2
+28 12 1684777701 1 1684777701 0 1684777701

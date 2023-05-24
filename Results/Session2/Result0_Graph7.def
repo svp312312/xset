@@ -29,7 +29,7 @@ ActionClearFilterEnabled=0
 ChartFile=C:\Users\svp31\Desktop\kurs nt\git\xset\Results\Session2\Result0_Graph7.cfg
 View3D=0
 IntLegendVisible=0
-Chart3dPercent=10
+Chart3dPercent=1
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T538995833T
+TableName=T553674523T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -55,7 +55,7 @@ IdsToStrs=1
 StdMonitor=0
 HiddenFunctions=Think Time
 NumBasicFilters=1
-NumAdditionalFilters=0
+NumAdditionalFilters=1
 NumRawDataFilters=0
 HiddenDimensions=
 BasicGroupBy=Transaction End Status
@@ -94,6 +94,17 @@ UseEscapeSequence=1
 DimCount=1
 Dim_0=Transaction
 LikeMode=0
+
+[AdditionalFilter0]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=4560.000000
+Dim_1=5760.000000
 
 [DimensionFunctions]
 DimeFuncCount=1

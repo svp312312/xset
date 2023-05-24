@@ -10,7 +10,7 @@ DefaultDisplayType=Line
 UserGranularity=1
 RoundBarValues=0
 GraphDataCol1=
-TableName=T539352827T
+TableName=T553677950T
 BasicTableName=
 AbsoluteTime=0
 DisableFilter=0
@@ -66,16 +66,15 @@ Dim_0=Server Resources
 LikeMode=0
 
 [AdditionalFilter0]
-DimensionType=Discrete
-InternalDimName=Event Name
-Dimension=System Resource Name
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
 EqualFlag=1
-DimensionTableName=Event_map
+DimensionTableName=Event_meter
 NumValues=1
-UseEscapeSequence=1
-DimCount=1
-Dim_0=% загруженности процессора (Процессор _Total)
-LikeMode=0
+DimCount=2
+Dim_0=4560.000000
+Dim_1=5760.000000
 
 [DimensionFunctions]
 DimeFuncCount=0

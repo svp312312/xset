@@ -29,7 +29,7 @@ ActionClearFilterEnabled=1
 ChartFile=C:\Users\svp31\Desktop\kurs nt\git\xset\Results\Session2\Result0_Graph6.cfg
 View3D=0
 IntLegendVisible=0
-Chart3dPercent=10
+Chart3dPercent=1
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
@@ -40,7 +40,7 @@ DefaultDisplayType=Line
 UserGranularity=0
 RoundBarValues=0
 GraphDataCol1=
-TableName=T538807182T
+TableName=T553670221T
 BasicTableName=BasicTransactionPercentile
 AbsoluteTime=0
 DisableFilter=0
@@ -96,29 +96,6 @@ LikeMode=0
 
 [AdditionalFilter0]
 DimensionType=Discrete
-InternalDimName=Event Name
-Dimension=Transaction Name
-EqualFlag=1
-DimensionTableName=Event_map
-NumValues=12
-UseEscapeSequence=1
-DimCount=12
-Dim_0=choose_ticket
-Dim_1=click_continue
-Dim_2=click_flights
-Dim_3=click_itinerary
-Dim_4=click_sign_up_now
-Dim_5=delete_ticket
-Dim_6=enter_Customer_Profile
-Dim_7=enter_login
-Dim_8=logout
-Dim_9=open_home_page
-Dim_10=payment
-Dim_11=search_tickets
-LikeMode=0
-
-[AdditionalFilter1]
-DimensionType=Discrete
 InternalDimName=Transaction End Status
 Dimension=Transaction End Status
 EqualFlag=1
@@ -128,6 +105,17 @@ UseEscapeSequence=1
 DimCount=1
 Dim_0=Pass
 LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=4560.000000
+Dim_1=5760.000000
 
 [DimensionFunctions]
 DimeFuncCount=1

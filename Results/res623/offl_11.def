@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=Байт измененных страниц памяти (Память)
+DataPointLabel_1=offline_datapoint_11
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=Байт измененных страниц памяти (Память)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Байты измененных страниц — это объем физической памяти в байтах, назначенной измененным страницам. Эта память содержит кэшированные данные и код, не используемый активно процессами, системой и системным кэшем. Память нуждается в записи перед выделением для процесса или использования системой.
